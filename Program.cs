@@ -6,8 +6,6 @@
         {
             //parte de testes-----------------------------------------
             //Ataque.GerarNumeroAleatorio();
-            //pq ta com cadeado?? por causa do git
-            
 
 
 
@@ -70,7 +68,7 @@
                         break;
                     case 7:
                         Console.WriteLine("Deseja adicionar mais um personagem? (sim/não)");
-                        string resposta = Console.ReadLine(); // Converter para minúsculas para facilitar a comparação
+                        string resposta = Console.ReadLine().ToLower(); // Converter para minúsculas para facilitar a comparação
                         if (resposta == "sim")
                         {
                             Console.WriteLine("Adicionando mais um personagem...");
