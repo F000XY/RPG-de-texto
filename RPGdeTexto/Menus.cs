@@ -8,7 +8,7 @@ using System.Threading;
 
 namespace RPGdeTexto
 {
-    internal class EscolhaPersonagem
+    internal class Menus
     {
        public static void escolhaMenu()
        {
@@ -25,15 +25,25 @@ namespace RPGdeTexto
             Console.WriteLine("7. Adicionar outro personagem ");
             Console.Write("Digite o número desejado: "); 
        }
-        public static void personagemCriado() 
+        
+        public static void escolhaLojinha()
         {
-            Console.WriteLine("");
-            Console.WriteLine("Criando personagem...");
-            Thread.Sleep(2000);
-            Console.WriteLine("O personagem foi criado com sucesso!!");
-            Thread.Sleep(2000);
-            Console.Clear();
+            Console.WriteLine("Escolha um personagem com sabedoria jovem guerreiro!");
+            Console.WriteLine("1. Poção Cura");
+            Console.WriteLine("2. Poção Força");
+            Console.WriteLine("3. Poção Veneno");
 
+            Console.WriteLine("4. Machado Obsidiana Negra");
+            Console.WriteLine("5. Arco Lapis Lazuli");
+            Console.WriteLine("6. Espada de Prisma");
+
+            Console.WriteLine("7. Túnica Arcana");
+            Console.WriteLine("8. Placas de Batalha");
+
+            Console.WriteLine("9. Cajado da Cura Eterna");
+            Console.WriteLine("10. Orbe da Natureza Ancestral");
+            Console.WriteLine("11. Livro dos Arcanos Antigos");
+            Console.Write("Digite o número desejado: ");
         }
     }
 }

@@ -23,19 +23,19 @@ namespace RPGdeTexto
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
         }
-        public void Nome()
+        public static void Nome()
         {
             Console.Write("Digite o nome do personagem: ");
             string nome = Console.ReadLine();
         }
-        public void Sexo ()
+        public static void Sexo ()
         {
             while (true)
             {
-                Console.Write("Digite o sexo do personagem, feminino ou masculino: ");
-                string sexo = Console.ReadLine();
+                Console.Write("Digite o sexo do personagem,'f' feminino ou 'm' masculino: ");
+                string sexo = Console.ReadLine().ToLower();
                 Console.WriteLine("");
-                if (sexo == "masculino" || sexo == "feminino")
+                if (sexo == "m" || sexo == "f")
                 {
                     break;
                 }
@@ -46,6 +46,16 @@ namespace RPGdeTexto
                 }
             }
         }
+        public static void personagemCriado()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("Criando personagem...");
+            Thread.Sleep(2000);
+            Console.WriteLine("O personagem foi criado com sucesso!!");
+            Thread.Sleep(2000);
+            Console.Clear();
+
+        }
 
     }
 
@@ -53,6 +63,7 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
+            Console.WriteLine("");
             Console.WriteLine("Esse personagem é especializado no combate corpo a corpo e possui " +
                 "muitos atributos de defesa.");
             int forca = 100;
@@ -66,6 +77,10 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
+            Nome();
+            Sexo();
+            personagemCriado();
+
         }
 
     }
@@ -74,6 +89,7 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
+            Console.WriteLine("");
             Console.WriteLine("Esse personagem é especializado no uso de magia" +
                 " capaz de lançar feitiços muito poderosos.");
             int forca = 10;
@@ -87,6 +103,9 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
+            Nome();
+            Sexo();
+            personagemCriado();
         }
  
 }
@@ -94,6 +113,7 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
+            Console.WriteLine("");
             Console.WriteLine("Esse personagem é especializado em furtividade, " +
                 "especializado em desarmar os oponentes.");
             int forca = 50;
@@ -107,6 +127,9 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
+            Nome();
+            Sexo();
+            personagemCriado();
         }
 
     }
@@ -114,6 +137,7 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
+            Console.WriteLine("");
             Console.WriteLine("Esse personagem é especializado no poder de cura " +
                 "para proteger e realizar milagres.");
             int forca = 50;
@@ -127,6 +151,9 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
+            Nome();
+            Sexo();
+            personagemCriado();
         }
 
     }
@@ -134,6 +161,7 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
+            Console.WriteLine("");
             Console.WriteLine("Esse personagem é especializado no combate á distância " +
                 "com arco e flechas.");
             int forca = 50;
@@ -147,6 +175,9 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
+            Nome();
+            Sexo();
+            personagemCriado();
         }
  
     }
@@ -154,6 +185,7 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
+            Console.WriteLine("");
             Console.WriteLine("Esse personagem é especializado na natureza," +
                 " possui habilidades de comunicação com plantas e animais.");
             int forca = 50;
@@ -167,6 +199,9 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
+            Nome();
+            Sexo();
+            personagemCriado();
         }
 
     }

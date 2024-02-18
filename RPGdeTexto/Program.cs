@@ -6,16 +6,12 @@
         {
             //parte de testes-----------------------------------------
             //Ataque.GerarNumeroAleatorio();
-           
-
-
-
 
             //------------------------------------------------------
-
+         
             while (true)
             {
-                EscolhaPersonagem.escolhaMenu();
+                Menus.escolhaMenu();
                 int escolha;
                 if (!int.TryParse(Console.ReadLine(), out escolha))
                 {
@@ -28,70 +24,50 @@
                 {
                     case 1:
                         Guerreiro guerreiro = new Guerreiro();
-                        Console.WriteLine("");
-                        guerreiro.Atributos();
-                        guerreiro.Nome();
-                        guerreiro.Sexo();
-                        EscolhaPersonagem.personagemCriado();
+                        guerreiro.Atributos();             
                         break;
                     case 2:
                         Mago mago = new Mago();
-                        Console.WriteLine("");
                         mago.Atributos();
-                        mago.Nome();
-                        mago.Sexo();
-                        EscolhaPersonagem.personagemCriado();
                         break;
                     case 3:
                         Arqueiro arqueiro = new Arqueiro();
-                        Console.WriteLine("");
                         arqueiro.Atributos();
-                        arqueiro.Nome();
-                        arqueiro.Sexo();
-                        EscolhaPersonagem.personagemCriado();
                         break;
                     case 4:
                         Clerigo clerigo = new Clerigo();
-                        Console.WriteLine("");
                         clerigo.Atributos();
-                        clerigo.Nome();
-                        clerigo.Sexo();
-                        EscolhaPersonagem.personagemCriado();
                         break;
                     case 5:
                         Ladino ladino = new Ladino();
-                        Console.WriteLine("");
                         ladino.Atributos();
-                        ladino.Nome();
-                        EscolhaPersonagem.personagemCriado();
                         break;
                     case 6:
                         Druida druida = new Druida();
-                        Console.WriteLine("");
                         druida.Atributos();
-                        druida.Nome();
-                        druida.Sexo();
-                        EscolhaPersonagem.personagemCriado();
                         break;
                     case 7:
                         Console.Clear();
-                        Console.WriteLine("Deseja adicionar mais um personagem? (sim/não)");
-                        string resposta = Console.ReadLine(); // Converter para minúsculas para facilitar a comparação
-                        if (resposta == "sim")
+                        Console.WriteLine("Deseja adicionar mais um personagem? (s/n)");
+                        string resposta = Console.ReadLine().ToLower();
+                        if (resposta == "s")
                         {
                             Console.WriteLine("Adicionando mais um personagem...");
                             // Continue o loop para permitir que o usuário escolha mais um personagem
                             continue;
                         }
-                        else if (resposta == "não")
+                        else if (resposta == "n")
                         {
                             Console.WriteLine("Ok! Personagens selecionados.");
-                            // Saia do loop e encerre o programa
-                            return;
+                            if (resposta== "n") 
+                            {
+                                Lojinha.ApresentarTudo(); 
+                            }
+                            return; 
                         }
                         else
                         {
-                            Console.WriteLine("Resposta inválida. Por favor, digite 'sim' ou 'não'.");
+                            Console.WriteLine("Resposta inválida. Por favor, digite 's' ou 'n'.");
                             // Se a resposta não for 'sim' ou 'não', continue no loop para pedir novamente
                             continue;
                         }
@@ -101,7 +77,9 @@
                         // numeros errados 
                         break;
                 }
+                
             }
+
         }
     }
 }
