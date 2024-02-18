@@ -1,0 +1,14 @@
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\bin\Debug\net8.0\RPGdeTexto.exe
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\bin\Debug\net8.0\RPGdeTexto.deps.json
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\bin\Debug\net8.0\RPGdeTexto.runtimeconfig.json
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\bin\Debug\net8.0\RPGdeTexto.dll
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\bin\Debug\net8.0\RPGdeTexto.pdb
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\obj\Debug\net8.0\RPGdeTexto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\obj\Debug\net8.0\RPGdeTexto.AssemblyInfoInputs.cache
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\obj\Debug\net8.0\RPGdeTexto.AssemblyInfo.cs
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\obj\Debug\net8.0\RPGdeTexto.csproj.CoreCompileInputs.cache
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\obj\Debug\net8.0\RPGdeTexto.dll
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\obj\Debug\net8.0\refint\RPGdeTexto.dll
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\obj\Debug\net8.0\RPGdeTexto.pdb
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\obj\Debug\net8.0\RPGdeTexto.genruntimeconfig.cache
+C:\Users\55119\source\repos\RPGdeTexto\RPGdeTexto\obj\Debug\net8.0\ref\RPGdeTexto.dll
