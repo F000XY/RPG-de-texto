@@ -27,8 +27,6 @@ namespace RPGdeTexto
         {
             Console.Write("Digite o nome do personagem: ");
             string nome = Console.ReadLine();
-            Console.WriteLine("O NOME DO PERSONAGEM: " +nome);
-            Console.WriteLine("");
         }
         public void Sexo ()
         {
@@ -39,7 +37,6 @@ namespace RPGdeTexto
                 Console.WriteLine("");
                 if (sexo == "masculino" || sexo == "feminino")
                 {
-                    Console.WriteLine("O SEXO DO PERSONAGEM: " + sexo);
                     break;
                 }
                 else
@@ -56,13 +53,14 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
-            Console.WriteLine("Esse personagem é especializado no combate corpo a corpo e possui muitos atributos de defesa.");
+            Console.WriteLine("Esse personagem é especializado no combate corpo a corpo e possui " +
+                "muitos atributos de defesa.");
             int forca = 100;
             int destreza = 50;
             int inteligencia = 10;
             int sabedoria = 50;
             int vida = 100;
-            Console.WriteLine("Atributos do perrsonagem: ");
+            Console.WriteLine("Atributos do personagem: ");
             Console.WriteLine("FORÇA: " + forca);
             Console.WriteLine("DESTREZA: " + destreza);
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
@@ -76,13 +74,14 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
-            Console.WriteLine("Esse personagem é especializado no uso de magia capaz de lançar feitiços muito poderosos.");
+            Console.WriteLine("Esse personagem é especializado no uso de magia" +
+                " capaz de lançar feitiços muito poderosos.");
             int forca = 10;
             int destreza = 50;
             int inteligencia = 100;
             int sabedoria = 50;
             int vida = 20;
-            Console.WriteLine("Atributos do perrsonagem: ");
+            Console.WriteLine("Atributos do personagem: ");
             Console.WriteLine("FORÇA: " + forca);
             Console.WriteLine("DESTREZA: " + destreza);
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
@@ -95,13 +94,14 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
-            Console.WriteLine("Esse personagem é especializado em furtividade, especializado em desarmar os oponentes.");
+            Console.WriteLine("Esse personagem é especializado em furtividade, " +
+                "especializado em desarmar os oponentes.");
             int forca = 50;
             int destreza = 100;
             int inteligencia = 50;
             int sabedoria = 50;
             int vida = 50;
-            Console.WriteLine("Atributos do perrsonagem: ");
+            Console.WriteLine("Atributos do personagem: ");
             Console.WriteLine("FORÇA: " + forca);
             Console.WriteLine("DESTREZA: " + destreza);
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
@@ -114,13 +114,14 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
-            Console.WriteLine("Esse personagem é especializado no poder de cura para proteger e realizar milagres.");
+            Console.WriteLine("Esse personagem é especializado no poder de cura " +
+                "para proteger e realizar milagres.");
             int forca = 50;
             int destreza = 50;
             int inteligencia = 50;
             int sabedoria = 100;
             int vida = 50;
-            Console.WriteLine("Atributos do perrsonagem: ");
+            Console.WriteLine("Atributos do personagem: ");
             Console.WriteLine("FORÇA: " + forca);
             Console.WriteLine("DESTREZA: " + destreza);
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
@@ -133,13 +134,14 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
-            Console.WriteLine("Esse personagem é especializado no combate á distância com arco e flechas.");
+            Console.WriteLine("Esse personagem é especializado no combate á distância " +
+                "com arco e flechas.");
             int forca = 50;
             int destreza = 100;
             int inteligencia = 50;
             int sabedoria = 50;
             int vida = 50;
-            Console.WriteLine("Atributos do perrsonagem: ");
+            Console.WriteLine("Atributos do personagem: ");
             Console.WriteLine("FORÇA: " + forca);
             Console.WriteLine("DESTREZA: " + destreza);
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
@@ -152,13 +154,14 @@ namespace RPGdeTexto
     {
         public override void Atributos()
         {
-            Console.WriteLine("Esse personagem é especializado na natureza, possui habilidades de comunicação com plantas e animais.");
+            Console.WriteLine("Esse personagem é especializado na natureza," +
+                " possui habilidades de comunicação com plantas e animais.");
             int forca = 50;
             int destreza = 50;
             int inteligencia = 50;
             int sabedoria = 100;
             int vida = 50;
-            Console.WriteLine("Atributos do perrsonagem: ");
+            Console.WriteLine("Atributos do personagem: ");
             Console.WriteLine("FORÇA: " + forca);
             Console.WriteLine("DESTREZA: " + destreza);
             Console.WriteLine("INTELIGENCIA: " + inteligencia);

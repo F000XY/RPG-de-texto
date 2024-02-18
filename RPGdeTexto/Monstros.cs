@@ -25,6 +25,8 @@ namespace RPGdeTexto
     {
         public override void atributosMonstro()
         {
+            Console.WriteLine("Criatura mistica e poderosa de grande porte, " +
+                "possui sentidos aguçados, como visão noturna e olfato apurado");
             int forca = 90;
             int resistencia = 90;
             int inteligencia = 80;
@@ -41,6 +43,8 @@ namespace RPGdeTexto
     {
         public override void atributosMonstro()
         {
+            Console.WriteLine("Criatura imensa, com grande força e formidável resistencia, " +
+                "possui baixa inteligência");
             int forca = 100;
             int resistencia = 80;
             int inteligencia = 50;
@@ -56,6 +60,8 @@ namespace RPGdeTexto
     {
         public override void atributosMonstro()
         {
+            Console.WriteLine(" Criatura resistente a danos físicos e ate mesmo mágicos, " +
+                "inteligencia variavel, normalmente abixo da média");
             int forca = 80;
             int resistencia = 80;
             int inteligencia = 40;
@@ -71,6 +77,8 @@ namespace RPGdeTexto
     {
         public override void atributosMonstro()
         {
+            Console.WriteLine("Criatura de pequeno porte, força física modesta porém possui altas " +
+                "habilidades de realizar armadilhas e emboscadas");
             int forca = 70;
             int resistencia = 70;
             int inteligencia = 60;

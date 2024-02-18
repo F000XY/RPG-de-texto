@@ -32,6 +32,7 @@
                         guerreiro.Atributos();
                         guerreiro.Nome();
                         guerreiro.Sexo();
+                        EscolhaPersonagem.personagemCriado();
                         break;
                     case 2:
                         Mago mago = new Mago();
@@ -39,6 +40,7 @@
                         mago.Atributos();
                         mago.Nome();
                         mago.Sexo();
+                        EscolhaPersonagem.personagemCriado();
                         break;
                     case 3:
                         Arqueiro arqueiro = new Arqueiro();
@@ -46,6 +48,7 @@
                         arqueiro.Atributos();
                         arqueiro.Nome();
                         arqueiro.Sexo();
+                        EscolhaPersonagem.personagemCriado();
                         break;
                     case 4:
                         Clerigo clerigo = new Clerigo();
@@ -53,12 +56,14 @@
                         clerigo.Atributos();
                         clerigo.Nome();
                         clerigo.Sexo();
+                        EscolhaPersonagem.personagemCriado();
                         break;
                     case 5:
                         Ladino ladino = new Ladino();
                         Console.WriteLine("");
                         ladino.Atributos();
                         ladino.Nome();
+                        EscolhaPersonagem.personagemCriado();
                         break;
                     case 6:
                         Druida druida = new Druida();
@@ -66,8 +71,10 @@
                         druida.Atributos();
                         druida.Nome();
                         druida.Sexo();
+                        EscolhaPersonagem.personagemCriado();
                         break;
                     case 7:
+                        Console.Clear();
                         Console.WriteLine("Deseja adicionar mais um personagem? (sim/não)");
                         string resposta = Console.ReadLine(); // Converter para minúsculas para facilitar a comparação
                         if (resposta == "sim")
