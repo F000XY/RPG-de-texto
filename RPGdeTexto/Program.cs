@@ -7,13 +7,15 @@
             //parte de testes-----------------------------------------
             //Ataque.GerarNumeroAleatorio();
             //pq ta com cadeado?? por causa do git
-            
+            //pronto
+            //entao eh so abrir o git e dar push? sim, vc só da push
+            //meu kkkkkkk eu aprendi de um jeito m8-880808080 mil vezes mais complexo kkkkkkkk asssim eh simples, olha
 
 
 
 
             //------------------------------------------------------
-           
+
             while (true)
             {
                 EscolhaPersonagem.escolhaMenu();
