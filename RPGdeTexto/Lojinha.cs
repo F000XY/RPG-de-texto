@@ -8,5 +8,28 @@ namespace RPGdeTexto
 {
     internal class Lojinha
     {
+        //info genericas
     }
+    class Pocoes
+    {
+        //info genericas de poções
+    }
+    class Armas
+    {
+
+    }
+    class Armaduras
+    {
+
+    }
+    class Acessorios
+    {
+
+    }
+    class Buffs
+    {
+
+    }
+
+
 }

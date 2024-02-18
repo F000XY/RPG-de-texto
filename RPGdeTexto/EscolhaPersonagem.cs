@@ -18,7 +18,7 @@ namespace RPGdeTexto
             Console.WriteLine("5. Ladino");
             Console.WriteLine("6. Druida");
             Console.WriteLine("7. Você deseja adicionar outro personagem? ");
-            Console.Write("Digite o número do personagem desejado: ");
+            Console.Write("Digite o número do personagem desejado: "); 
        }
     }
 }
