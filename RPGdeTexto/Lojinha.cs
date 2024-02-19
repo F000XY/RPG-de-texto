@@ -112,31 +112,38 @@ namespace RPGdeTexto
         }
         public static void ApresentarTudo()
         {
-            ApresentarLojinha();
+           // ApresentarLojinha();
             Console.WriteLine(" "); 
 
             // Apresentar as poções
             Pocoes.ApresentarPocoes();
+            Thread.Sleep(2000);
             Pocoes.ApresentarPocaoCura();
             Pocoes.ApresentarPocaoForca();
             Pocoes.ApresentarPocaoVeneno();
             Console.WriteLine(" ");
+            Thread.Sleep(2000);
 
             // Apresentar as armas
             Armas.apresentarArmas();
+            Thread.Sleep(2000);
             Armas.ApresentarMachado();
             Armas.ApresentarArco();
             Armas.ApresentarEspada();
             Console.WriteLine(" ");
+            Thread.Sleep(2000);
 
             // Apresentar as armaduras
             Armaduras.apresentarArmas();
+            Thread.Sleep(2000);
             Armaduras.ApresentarTunicaArcana();
             Armaduras.ApresentarPlacasdeBatalha();
             Console.WriteLine(" ");
+            Thread.Sleep(2000);
 
             // Apresentar os acessórios
             Acessorios.apresentarAcessorios();
+            Thread.Sleep(2000);
             Acessorios.ApresentarCajadodaCuraEterna();
             Acessorios.ApresentarOrbedaNaturezaAncestral();
             Acessorios.ApresentarLivrodosArcanosAntigos();

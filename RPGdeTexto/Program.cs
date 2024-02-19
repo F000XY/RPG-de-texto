@@ -1,4 +1,6 @@
-﻿namespace RPGdeTexto
+﻿using System.Runtime.CompilerServices;
+
+namespace RPGdeTexto
 {
     internal class Program
     {
@@ -6,9 +8,20 @@
         {
             //parte de testes-----------------------------------------
             //Ataque.GerarNumeroAleatorio();
+            //Historia.inicioHistoria();
+            //Lojinha.ApresentarTudo();
+            // Menus.escolhaLojinha();
+            //int escolhaitem;
+            //if (!int.TryParse(Console.ReadLine(), out escolhaitem))
+            // {
+            // Console.Clear();
+
+            //}
 
             //------------------------------------------------------
-         
+            Historia.inicioHistoria();
+            List<string> personagensLista = new List<string>();
+            //criei uma lista apenas de exibição para os att dos personagens passivel de mudança.
             while (true)
             {
                 Menus.escolhaMenu();
@@ -18,34 +31,40 @@
                     Console.Clear();
                     Console.WriteLine("Opção inválida. Por favor, digite um número válido.");
                     continue;
-                    // loopando no caso de letras erradas 
+                    // loopando no caso de letras erradas
                 }
                 switch (escolha)
                 {
                     case 1:
                         Guerreiro guerreiro = new Guerreiro();
-                        guerreiro.Atributos();             
+                        guerreiro.Atributos();
+                        personagensLista.Add("Dados: Gerreiro, F=100, D=50, I=10, S=50, V=100.");
                         break;
                     case 2:
                         Mago mago = new Mago();
                         mago.Atributos();
+                        personagensLista.Add("Dados: Mago, F=60, D=50, I=100, S=50, V=20.");
                         break;
                     case 3:
                         Arqueiro arqueiro = new Arqueiro();
                         arqueiro.Atributos();
+                        personagensLista.Add("Dados: Arqueiro, F=50, D=100, I=50, S=50, V=50.");
                         break;
                     case 4:
                         Clerigo clerigo = new Clerigo();
                         clerigo.Atributos();
+                        personagensLista.Add("Dados: Clérigo, F=50, D=50, I=100, S=50, V=50.");
                         break;
                     case 5:
                         Ladino ladino = new Ladino();
                         ladino.Atributos();
+                        personagensLista.Add("Dados: Ladino, F=50, D=100, I=50, S=50, V=50.");
                         break;
                     case 6:
                         Druida druida = new Druida();
                         druida.Atributos();
-                        break;
+                        personagensLista.Add("Dados: Druida, F=50, D=50, I=100, S=50, V=50.");
+                            break;
                     case 7:
                         Console.Clear();
                         Console.WriteLine("Deseja adicionar mais um personagem? (s/n)");
@@ -53,22 +72,27 @@
                         if (resposta == "s")
                         {
                             Console.WriteLine("Adicionando mais um personagem...");
-                            // Continue o loop para permitir que o usuário escolha mais um personagem
                             continue;
                         }
                         else if (resposta == "n")
                         {
-                            Console.WriteLine("Ok! Personagens selecionados.");
+                            Console.WriteLine("Ok! Personagens selecionados. Confira a lista: ");
                             if (resposta== "n") 
-                            {
-                                Lojinha.ApresentarTudo(); 
+                            {   
+                                foreach (var personagem in personagensLista){ Console.WriteLine(personagem); }
                             }
+                            Historia.inicioHistoriaAposCriacaoPersonagem();
+                            Historia.inicioHistoriaLojinha();
+                            Lojinha.ApresentarTudo();
+                            Menus.escolhaLojinha();
+                            int escolhaitem;
+                            if (!int.TryParse(Console.ReadLine(), out escolhaitem)){ }
+                            
                             return; 
                         }
                         else
                         {
                             Console.WriteLine("Resposta inválida. Por favor, digite 's' ou 'n'.");
-                            // Se a resposta não for 'sim' ou 'não', continue no loop para pedir novamente
                             continue;
                         }
                     default:

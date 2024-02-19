@@ -13,9 +13,9 @@ namespace RPGdeTexto
        public static void escolhaMenu()
        {
             Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-            Console.WriteLine("=-=-BEM VINDO AO RPG DE TEXTO-=-=");
+            Console.WriteLine("BEM-VINDO A CRIAÇÃO DE PERSONAGEM");
             Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-            Console.WriteLine("Escolha um personagem com sabedoria jovem guerreiro!");
+            Console.WriteLine("");
             Console.WriteLine("1. Guerreiro");
             Console.WriteLine("2. Mago");
             Console.WriteLine("3. Arqueiro");

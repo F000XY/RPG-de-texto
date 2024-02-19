@@ -23,10 +23,11 @@ namespace RPGdeTexto
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
         }
-        public static void Nome()
+        public static string Nome()
         {
             Console.Write("Digite o nome do personagem: ");
             string nome = Console.ReadLine();
+            return nome;
         }
         public static void Sexo ()
         {
@@ -55,8 +56,7 @@ namespace RPGdeTexto
             Thread.Sleep(2000);
             Console.Clear();
 
-        }
-
+        }   
     }
 
     class Guerreiro : Personagem
@@ -80,9 +80,7 @@ namespace RPGdeTexto
             Nome();
             Sexo();
             personagemCriado();
-
-        }
-
+        } 
     }
 
     class Mago : Personagem
@@ -92,7 +90,7 @@ namespace RPGdeTexto
             Console.WriteLine("");
             Console.WriteLine("Esse personagem é especializado no uso de magia" +
                 " capaz de lançar feitiços muito poderosos.");
-            int forca = 10;
+            int forca = 60;
             int destreza = 50;
             int inteligencia = 100;
             int sabedoria = 50;
@@ -106,9 +104,10 @@ namespace RPGdeTexto
             Nome();
             Sexo();
             personagemCriado();
+     
         }
  
-}
+    }
     class Ladino : Personagem
     {
         public override void Atributos()
@@ -130,6 +129,7 @@ namespace RPGdeTexto
             Nome();
             Sexo();
             personagemCriado();
+
         }
 
     }
@@ -154,6 +154,7 @@ namespace RPGdeTexto
             Nome();
             Sexo();
             personagemCriado();
+           
         }
 
     }
@@ -178,6 +179,7 @@ namespace RPGdeTexto
             Nome();
             Sexo();
             personagemCriado();
+         
         }
  
     }
@@ -202,6 +204,7 @@ namespace RPGdeTexto
             Nome();
             Sexo();
             personagemCriado();
+         
         }
 
     }
