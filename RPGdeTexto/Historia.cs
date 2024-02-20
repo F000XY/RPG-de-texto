@@ -29,10 +29,10 @@ namespace RPGdeTexto
                 " Agora, com os personagens prontos e seus destinos traçados, a verdadeira aventura está " +
                 "prestes a começar em Eldoria.\n Prepare-se para desvendar os segredos dessa cidade encantada " +
                 "e viver grandes aventuras ao lado de bravos heróis!");
-            Console.Clear();
-            Console.WriteLine("Após andarem muito.. ");
-            Thread.Sleep(2000);
-            Console.WriteLine("Encontraram um velho sabio..");
+
+            Console.WriteLine("\n Após andarem muito.. ");
+            Thread.Sleep(20000);
+            Console.WriteLine("\n Encontraram um velho sabio..");
             Thread.Sleep(2000);
             Console.Clear();
         }
@@ -40,24 +40,24 @@ namespace RPGdeTexto
         {
             Console.Write("\n Seguindo os conselhos de um velho sábio, eles logo encontram uma " +
                 "pequena loja escondida em uma ruela estreita.");
-            Thread.Sleep(2000);
+            Thread.Sleep(5000);
             Console.WriteLine("");
             Console.Write("\n A lojinha, conhecida como 'Arcanos e Aventuras', é uma pequena e aconchegante tenda decorada com artefatos "+ 
                 "mágicos\n e armas reluzentes.");
-            Thread.Sleep(2000);
+            Thread.Sleep(5000);
             Console.WriteLine("");
             Console.Write("\n Seu proprietário, um velho mago chamado Horácio, acolhe os " +
                 "heróis com um sorriso sábio.\n");
             Console.WriteLine("");
-            Thread.Sleep(2000);
+            Thread.Sleep(5000);
             Console.Write("\n =-=Horácio=-=: 'Sejam bem-vindos, nobres aventureiros, à minha humilde loja' " +
-                " sua voz ecoando com um tom misterioso.\n ");
+                " -Sua voz ecoando com um tom misterioso.\n ");
             Console.WriteLine("");
-            Thread.Sleep(2000);
+            Thread.Sleep(5000);
             Console.Write("\n =-=Horácio=-=: 'Aqui vocês encontrarão uma vasta seleção de itens " +
                 "mágicos e equipamentos poderosos para ajudá-los \n em suas jornadas pela terra de Eldoria.'");
             Console.WriteLine("");
-            Thread.Sleep(4000);
+            Thread.Sleep(5000);
             Console.Clear();
         }
     }

@@ -51,18 +51,18 @@ namespace RPGdeTexto
             }
             public static void ApresentarMachado()
             {
-                int dano = 60;
-                Console.WriteLine("=-=Machado Obsidiana Negra=-= Item para ladinos! Dano: +" + dano);
+                int forca = 60;
+                Console.WriteLine("=-=Machado Obsidiana Negra=-= Item para ladinos! Força: +" + forca);
             }
             public static void ApresentarArco()
             {
-                int dano = 70;
-                Console.WriteLine("=-=Arco Lapis Lazuli=-= Item para arqueiros! Dano: +" + dano);
+                int forca = 70;
+                Console.WriteLine("=-=Arco Lapis Lazuli=-= Item para arqueiros! Força: +" + forca);
             }
             public static void ApresentarEspada()
             {
-                int dano = 80;
-                Console.WriteLine("=-=Espada de Prisma=-= Item para guerreiros! Dano: +" + dano);
+                int forca = 80;
+                Console.WriteLine("=-=Espada de Prisma=-= Item para guerreiros! Força: +" + forca);
             }
         }
 
@@ -76,13 +76,13 @@ namespace RPGdeTexto
             }
             public static void ApresentarTunicaArcana()
             {
-                int dano = -20;
-                Console.WriteLine("=-=Túnica Arcana=-= Item para defeza de mágia! Reduz Dano: " + dano);
+                int forca = 20;
+                Console.WriteLine("=-=Túnica Arcana=-= Item para defeza de mágia! Aumeta a força: " + forca);
             }
             public static void ApresentarPlacasdeBatalha()
             {
-                int dano = -25;
-                Console.WriteLine("=-=Placas de Batalha=-= Item para defeza de física! Reduz Dano: " + dano);
+                int forca = 20;
+                Console.WriteLine("=-=Placas de Batalha=-= Item para defeza de física!Aumeta a força: " + forca);
             }
 
         }
@@ -97,12 +97,12 @@ namespace RPGdeTexto
             public static void ApresentarCajadodaCuraEterna()
             {
                 int vida = 55;
-                Console.WriteLine("=-=Cajado da Cura Eterna=-= Item para Clérigos! Aumenta e restaura a vida em: +" + vida);
+                Console.WriteLine("=-=Cajado da Cura Eterna=-= Item para Clérigos! Aumenta sua vida e restaura a vida de todos em batalha: +" + vida);
             }
             public static void ApresentarOrbedaNaturezaAncestral()
             {
                 int forca = 35;
-                Console.WriteLine("=-=Orbe da Natureza Ancestral=-= Item para Druidas! Aumenta a força de todos os aliados em: +" + forca);
+                Console.WriteLine("=-=Orbe da Natureza Ancestral=-= Item para Druidas! Aumenta sua força e em batalha todos os aliados em: +" + forca);
             }
             public static void ApresentarLivrodosArcanosAntigos()
             {

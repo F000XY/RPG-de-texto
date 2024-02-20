@@ -29,12 +29,13 @@ namespace RPGdeTexto
             string nome = Console.ReadLine();
             return nome;
         }
-        public static void Sexo ()
+        public static string Sexo()
         {
+            string sexo;
             while (true)
             {
                 Console.Write("Digite o sexo do personagem,'f' feminino ou 'm' masculino: ");
-                string sexo = Console.ReadLine().ToLower();
+                sexo = Console.ReadLine().ToLower();
                 Console.WriteLine("");
                 if (sexo == "m" || sexo == "f")
                 {
@@ -46,6 +47,7 @@ namespace RPGdeTexto
                     continue;
                 }
             }
+            return sexo;
         }
         public static void personagemCriado()
         {
@@ -56,7 +58,8 @@ namespace RPGdeTexto
             Thread.Sleep(2000);
             Console.Clear();
 
-        }   
+        }
+      
     }
 
     class Guerreiro : Personagem
@@ -77,9 +80,7 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
-            Nome();
-            Sexo();
-            personagemCriado();
+
         } 
     }
 
@@ -101,9 +102,6 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
-            Nome();
-            Sexo();
-            personagemCriado();
      
         }
  
@@ -126,9 +124,6 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
-            Nome();
-            Sexo();
-            personagemCriado();
 
         }
 
@@ -151,10 +146,7 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
-            Nome();
-            Sexo();
-            personagemCriado();
-           
+ 
         }
 
     }
@@ -176,10 +168,7 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
-            Nome();
-            Sexo();
-            personagemCriado();
-         
+ 
         }
  
     }
@@ -201,10 +190,7 @@ namespace RPGdeTexto
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("SABEDORIA: " + sabedoria);
             Console.WriteLine("VIDA: " + vida);
-            Nome();
-            Sexo();
-            personagemCriado();
-         
+ 
         }
 
     }
