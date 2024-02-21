@@ -39,8 +39,7 @@
               "ViewState": "AQIAABYAAAAAAAAAAAAgwG0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-20T17:26:23.377Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -53,8 +52,7 @@
               "ViewState": "AQIAAE4AAAAAAAAAAAAmwI0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-20T17:21:37.637Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -64,7 +62,7 @@
               "RelativeDocumentMoniker": "Menus.cs",
               "ToolTip": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\Menus.cs",
               "RelativeToolTip": "Menus.cs",
-              "ViewState": "AQIAAOEAAAAAAAAAAAAowMUAAAAZAAAA",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAcwOIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-20T17:22:01.519Z",
               "IsPinned": true,
@@ -80,8 +78,7 @@
               "RelativeToolTip": "Lojinha.cs",
               "ViewState": "AQIAAFsAAAAAAAAAAAAIwGgAAAB1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T17:34:31.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T17:34:31.659Z"
             }
           ]
         }
