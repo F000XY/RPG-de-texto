@@ -429,9 +429,8 @@ namespace RPGdeTexto
                             }
                             Console.WriteLine("Ok! Atributos adicionados.");
                             if (resposta == "n")
-                            {
-                                foreach (var personagem in personagensItems) { Console.WriteLine(personagem); }
-
+                            { 
+                                continue;
                             }
                             return;
                         }
