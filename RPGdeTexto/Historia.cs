@@ -61,7 +61,26 @@ namespace RPGdeTexto
             Console.Clear();
         }
 
-        public static void teste()
-        { Console.WriteLine("TESTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"); }
+        public static void missaoEmEldoria()
+        {
+            Console.Write("\n Após se dispidirem de Horácio, e voltarem ao centro de Eldoria," +
+                " perceberam uma grande agitação local.\n");
+            Thread.Sleep(2000);
+            Console.Write("\n Os heróis são informados sobre os desaparecimentos de aldeões na floresta próxima." +
+            " Após um apelo dos próprios aldeões \n decidiram investigar o mistério.\n");
+            Console.WriteLine(" ");
+            Console.WriteLine("\n A entrada da floresta era marcadda por dois enormes pinherios..");
+            Thread.Sleep(2000);
+            Console.WriteLine("    /\\           /\\     ");
+            Console.WriteLine("   /  \\         /  \\    ");
+            Console.WriteLine("  /    \\       /    \\   ");
+            Console.WriteLine(" /      \\     /      \\  ");
+            Console.WriteLine("/_______ \\   /_______ \\ ");
+            Console.WriteLine("   |   |        |   |   ");
+            Console.WriteLine("   |   |        |   |   ");
+            Console.WriteLine(" ");
+            Console.WriteLine("\n Nossos herois decidiram investigar esse misterio mais a fundo e adentraram na floresta..");
+            Console.WriteLine(" ");
+        }
     }
 }

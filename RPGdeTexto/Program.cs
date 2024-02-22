@@ -104,8 +104,9 @@ namespace RPGdeTexto
                           //  Historia.inicioHistoriaLojinha();
                             Lojinha.ApresentarTudo();
                             Menus.escolhaLojinha();
-                            Historia.teste();
-                           
+                            Historia.missaoEmEldoria();
+
+
                             return; 
                         }
                         else
