@@ -350,7 +350,7 @@ namespace RPGdeTexto
                         var itemGuerreiros = Console.ReadLine().ToLower();
                         if (itemGuerreiros == "guerreiro")
                         {
-                            if (personagensItems.Contains(somaArqueiro))
+                            if (personagensItems.Contains(somaGuerreiro))
                             {
                                 Console.Clear();
                                 Console.WriteLine("Compra confirmada!");

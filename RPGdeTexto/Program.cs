@@ -100,13 +100,11 @@ namespace RPGdeTexto
                                 foreach (var personagem in personagensLista){ Console.WriteLine(personagem); }
                                
                             }
-                          //  Historia.inicioHistoriaAposCriacaoPersonagem();
-                          //  Historia.inicioHistoriaLojinha();
+                            Historia.inicioHistoriaAposCriacaoPersonagem();
+                            Historia.inicioHistoriaLojinha();
                             Lojinha.ApresentarTudo();
                             Menus.escolhaLojinha();
                             Historia.missaoEmEldoria();
-
-
                             return; 
                         }
                         else

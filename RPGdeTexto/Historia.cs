@@ -69,7 +69,7 @@ namespace RPGdeTexto
             Console.Write("\n Os heróis são informados sobre os desaparecimentos de aldeões na floresta próxima." +
             " Após um apelo dos próprios aldeões \n decidiram investigar o mistério.\n");
             Console.WriteLine(" ");
-            Console.WriteLine("\n A entrada da floresta era marcadda por dois enormes pinherios..");
+            Console.WriteLine("\n A entrada da floresta era marcada por dois enormes pinherios..");
             Thread.Sleep(2000);
             Console.WriteLine("    /\\           /\\     ");
             Console.WriteLine("   /  \\         /  \\    ");
@@ -80,6 +80,32 @@ namespace RPGdeTexto
             Console.WriteLine("   |   |        |   |   ");
             Console.WriteLine(" ");
             Console.WriteLine("\n Nossos herois decidiram investigar esse misterio mais a fundo e adentraram na floresta..");
+            Console.WriteLine(" ");
+            Console.WriteLine("\n Pressione Enter para avançar na história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.Write("\n Nossos heróis decidiram investigar esse mistério mais a fundo e adentraram na floresta, " +
+                "caminhando por entre as árvores imponentes que se erguiam ao seu redor. O chão estava coberto de " +
+                "musgo úmido e folhas secas, criando um tapete natural \n que amortecia seus passos. Os raios de sol " +
+                "filtravam-se timidamente através da densa copa das árvores, criando padrões \n de luz e sombra que " +
+                 "dançavam pelo chão da floresta.\n");
+            Console.WriteLine(" ");
+            Console.WriteLine("\n Pressione Enter para avançar na história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.Write("\n O ar estava impregnado com o perfume fresco da vegetação, e o som suave do vento " +
+                "sussurrava entre as folhas \n das árvores, criando uma melodia tranquilizadora. No entanto, " +
+                "um sentimento de inquietude pairava no ar, \n como se a própria floresta estivesse aguardando " +
+                "algo ou alguém.\n");
+            Console.WriteLine(" ");
+            Console.WriteLine("\n Pressione Enter para avançar na história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.Write("\n Enquanto avançavam mais fundo na floresta, os heróis começaram a notar " +
+                "sinais de atividade incomum. \n Pegadas frescas de criaturas desconhecidas marcavam o chão " +
+                "macio, e galhos quebrados indicavam que algo grande \n havia passado recentemente por ali.\n " +
+                "Eles mantinham suas armas prontas e os sentidos aguçados, preparados para qualquer " +
+                "desafio que pudessem \n encontrar em seu caminho.\n");
             Console.WriteLine(" ");
         }
     }
