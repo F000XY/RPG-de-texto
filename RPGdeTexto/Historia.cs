@@ -10,7 +10,6 @@ namespace RPGdeTexto
     {
         public static void inicioHistoria() 
         {
-
             Console.Write("=-= O Despertar do Herói=-= \n Há muito tempo, em um reino chamado Eldoria, " +
                 "as trevas começaram a se espalhar.\n Uma antiga profecia, " +
                 "esquecida pelos habitantes do reino, ressurgiu das páginas empoeiradas " +
@@ -19,6 +18,7 @@ namespace RPGdeTexto
                 "e restaurar a paz em Eldoria.\n Você está pronto para encarar a aventura? Vamos criar" +
                 " seu personagem: \n");
             Console.WriteLine("");
+            Thread.Sleep(10000);
         }
 
         public static void inicioHistoriaAposCriacaoPersonagem()
@@ -60,5 +60,8 @@ namespace RPGdeTexto
             Thread.Sleep(5000);
             Console.Clear();
         }
+
+        public static void teste()
+        { Console.WriteLine("TESTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"); }
     }
 }

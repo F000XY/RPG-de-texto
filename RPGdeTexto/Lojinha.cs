@@ -27,12 +27,12 @@ namespace RPGdeTexto
             public static void ApresentarPocaoCura()
             {
                 int vida = 50;
-                Console.WriteLine("=-=Poção de Cura=-= Uma poção que restaura ou aumenta temporariamente uma parte da sua saúde em: " + vida);
+                Console.WriteLine("=-=Poção de Cura=-= Uma poção que restaura ou aumenta temporariamente uma parte da sua saúde em: +" + vida);
             }
             public static void ApresentarPocaoForca()
             {
                 int forca = 100;
-                Console.WriteLine("=-=Poção de Força=-= Uma poção que aumenta temporariamente sua força em: " + forca);
+                Console.WriteLine("=-=Poção de Força=-= Uma poção que aumenta temporariamente sua força em: +" + forca);
             }
             public static void ApresentarPocaoVeneno()
             {
@@ -77,12 +77,12 @@ namespace RPGdeTexto
             public static void ApresentarTunicaArcana()
             {
                 int forca = 20;
-                Console.WriteLine("=-=Túnica Arcana=-= Item para defeza de mágia! Aumeta a força: " + forca);
+                Console.WriteLine("=-=Túnica Arcana=-= Item para defeza de mágia! Aumeta a força: +" + forca);
             }
             public static void ApresentarPlacasdeBatalha()
             {
                 int forca = 20;
-                Console.WriteLine("=-=Placas de Batalha=-= Item para defeza de física!Aumeta a força: " + forca);
+                Console.WriteLine("=-=Placas de Batalha=-= Item para defeza de física!Aumeta a força: +" + forca);
             }
 
         }
@@ -91,7 +91,7 @@ namespace RPGdeTexto
         {
             public static void apresentarAcessorios()
             {
-                Console.WriteLine("=-=-=-=A C E S S O R I O S=-=-=-=");
+                Console.WriteLine("=-=-=-=E N C A N T A D O S=-=-=-=");
                 Console.WriteLine("Acessorios são itens para usuários de magia, podem ser usados para dar mais dano de ataque em monstros.");
             }
             public static void ApresentarCajadodaCuraEterna()

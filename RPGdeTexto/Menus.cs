@@ -122,26 +122,36 @@ namespace RPGdeTexto
         }
         public static void escolhaLojinha()
         {
+            List<int> personagensItems = new List<int>();
+            int somaLadino = lojinhaAtributosLadino();
+            int somaArqueiro = lojinhaAtributosArqueiro();
+            int somaGuerreiro = lojinhaAtributosGuerrreiro(); 
+            int somaDruida =  lojinhaAtributosDruida();
+            int somaMago = lojinhaAtributosMago();
             while (true)
             {
-                Console.WriteLine("Escolha um personagem com sabedoria jovem guerreiro!");
+                Console.WriteLine("\n =-=Horácio=-=: Escolha os itens com sabedoria jovem guerreiro!");
+                Thread.Sleep(1000);
+                Console.WriteLine("\n =-=Horácio=-=: Cada um tem o direito de escolher 3 itens na ordem..Poções ---> Armas/Encantados ---> Armaduras");
+                Console.WriteLine(" ");
+                Thread.Sleep(1000);
                 Console.WriteLine("1. Poção Cura");
                 Console.WriteLine("2. Poção Força");
                 Console.WriteLine("3. Poção Veneno");
 
-                Console.WriteLine("4. Machado Obsidiana Negra");
-                Console.WriteLine("5. Arco Lapis Lazuli");
-                Console.WriteLine("6. Espada de Prisma");
+                Console.WriteLine("4. Machado Obsidiana Negra (LADINO)");
+                Console.WriteLine("5. Arco Lapis Lazuli (ARQUEIRO)");
+                Console.WriteLine("6. Espada de Prisma (GUERREIRO)");
  
-
-                Console.WriteLine("7. Cajado da Cura Eterna");
-                Console.WriteLine("8. Orbe da Natureza Ancestral");
-                Console.WriteLine("9. Livro dos Arcanos Antigos");
-
-                Console.WriteLine("10. Túnica Arcana");
-                Console.WriteLine("11. Placas de Batalha");
+                Console.WriteLine("7. Cajado da Cura Eterna (CLERIGO)");
+                Console.WriteLine("8. Orbe da Natureza Ancestral (DRUIDA)");
+                Console.WriteLine("9. Livro dos Arcanos Antigos (MAGO)");
+               
+                Console.WriteLine("10. Túnica Arcana (PERSONAGENS DE MAGIA)");
+                Console.WriteLine("11. Placas de Batalha (PERSONAGENS DE GUERRA)");
+                Console.WriteLine("12. Sair.. ");
                 Console.Write("Digite o número desejado: ");
-                int escolhaitem;
+                int escolhaitem;  
                 if (!int.TryParse(Console.ReadLine(), out escolhaitem)) { }
                 switch (escolhaitem)
                 {
@@ -162,8 +172,8 @@ namespace RPGdeTexto
                         {
                             Console.Clear();
                             Console.WriteLine("Compra confirmada!");
-                            int soma = lojinhaAtributosLadino();
-                            Console.WriteLine("Seus atributos de força subiram para: " + soma);
+                            personagensItems.Add(somaLadino);
+                            Console.WriteLine("Seus atributos de força subiram para: " + somaLadino);
                             Console.WriteLine("");
                             continue;
                         }
@@ -182,8 +192,8 @@ namespace RPGdeTexto
                         {
                             Console.Clear();
                             Console.WriteLine("Compra confirmada!");
-                            int soma = lojinhaAtributosArqueiro();
-                            Console.WriteLine("Seus atributos de força subiram para: " + soma);
+                            personagensItems.Add(somaArqueiro);
+                            Console.WriteLine("Seus atributos de força subiram para: " + somaArqueiro);
                             Console.WriteLine("");
                             continue;
                         }
@@ -201,9 +211,9 @@ namespace RPGdeTexto
                         if (itemGuerreiro == "guerreiro")
                         {
                             Console.Clear();
-                            Console.WriteLine("Compra confirmada!");
-                            int soma = lojinhaAtributosGuerrreiro();
-                            Console.WriteLine("Seus atributos de força subiram para: " + soma);
+                            Console.WriteLine("Compra confirmada!"); 
+                            personagensItems.Add(somaGuerreiro);
+                            Console.WriteLine("Seus atributos de força subiram para: " + somaGuerreiro);
                             Console.WriteLine("");
                             continue;
                         }
@@ -224,7 +234,9 @@ namespace RPGdeTexto
                             Console.WriteLine("Compra confirmada!");
                             int somaforca = lojinhaAtributosFinalClerigo();
                             int somaVida = lojinhaAtributosClerigo();
-                            Console.WriteLine("A vida está em: " +somaVida);
+                            personagensItems.Add(somaforca);
+                            personagensItems.Add(somaVida);
+                            Console.WriteLine("A vida está em: " + somaVida);
                             Console.WriteLine("");
                             continue;
                         }
@@ -243,8 +255,8 @@ namespace RPGdeTexto
                         {
                             Console.Clear();
                             Console.WriteLine("Compra confirmada!");
-                            int soma = lojinhaAtributosDruida();
-                            Console.WriteLine("Seus atributos de força subiram para: " + soma);
+                            personagensItems.Add(somaDruida);
+                            Console.WriteLine("Seus atributos de força subiram para: " + somaDruida);
                             Console.WriteLine("");
                             continue;
                         }
@@ -263,8 +275,8 @@ namespace RPGdeTexto
                         {
                             Console.Clear();
                             Console.WriteLine("Compra confirmada!");
-                            int soma = lojinhaAtributosMago();
-                            Console.WriteLine("Seus atributos de força subiram para: " + soma);
+                            personagensItems.Add(somaMago);
+                            Console.WriteLine("Seus atributos de força subiram para: " + somaMago);
                             Console.WriteLine("");
                             continue;
                         }
@@ -281,31 +293,49 @@ namespace RPGdeTexto
                         var itemMagico = Console.ReadLine().ToLower();
                         if (itemMagico == "mago")
                         {
-                            Console.Clear();
-                            Console.WriteLine("Compra confirmada!");
-                            int soma = lojinhaAtributosFinalMago();
-                            Console.WriteLine("Seus atributos de força subiram para: " + soma);
-                            Console.WriteLine("");
-                            continue;
+                            if (personagensItems.Contains(somaMago))
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Compra confirmada!");
+                                int soma = lojinhaAtributosFinalMago();
+                                personagensItems.Add(soma);
+                                Console.WriteLine("Seus atributos de força subiram para: " + soma);
+                                Console.WriteLine("");
+                                continue;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Compre primeiro o Livro dos Arcanos Antigos.");
+                                continue;
+                            }
                         }
                         else if (itemMagico == "clerigo")
                         {
                             Console.Clear();
                             Console.WriteLine("Compra confirmada!");
                             int somaforca = lojinhaAtributosFinalClerigo();
-                            // int somaVida = lojinhaAtributosClerigo();
+                            personagensItems.Add(somaforca);
                             Console.WriteLine("Seus atributos de força subiram para: " + somaforca);
                             Console.WriteLine("");
                             continue;
                         }
                         else if (itemMagico == "druida")
                         {
-                            Console.Clear();
-                            Console.WriteLine("Compra confirmada!");
-                            int soma = lojinhaAtributosFinalDruida();
-                            Console.WriteLine("Seus atributos de força subiram para: " + soma);
-                            Console.WriteLine("");
-                            continue;
+                            if (personagensItems.Contains(somaDruida))
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Compra confirmada!");
+                                int soma = lojinhaAtributosFinalDruida();
+                                personagensItems.Add(soma);
+                                Console.WriteLine("Seus atributos de força subiram para: " + soma);
+                                Console.WriteLine("");
+                                continue;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Compre primeiro o Orbe da Natureza Ancestral.");
+                                continue;
+                            }
                         }
                         else
                         {
@@ -320,30 +350,57 @@ namespace RPGdeTexto
                         var itemGuerreiros = Console.ReadLine().ToLower();
                         if (itemGuerreiros == "guerreiro")
                         {
-                            Console.Clear();
-                            Console.WriteLine("Compra confirmada!");
-                            int soma = lojinhaAtributosFinalGuerreiro();
-                            Console.WriteLine("Seus atributos de força subiram para: " + soma);
-                            Console.WriteLine("");
-                            continue;
+                            if (personagensItems.Contains(somaArqueiro))
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Compra confirmada!");
+                                int soma = lojinhaAtributosFinalGuerreiro();
+                                personagensItems.Add(soma);
+                                Console.WriteLine("Seus atributos de força subiram para: " + soma);
+                                Console.WriteLine("");
+                                continue;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Compre primeiro a Espada de Prisma.");
+                                continue;
+                            }
                         }
                         else if (itemGuerreiros == "arqueiro")
                         {
-                            Console.Clear();
-                            Console.WriteLine("Compra confirmada!");
-                            int soma = lojinhaAtributosFinalArqueiro();
-                            Console.WriteLine("Seus atributos de força subiram para: " + soma);
-                            Console.WriteLine("");
-                            continue;
+                            if (personagensItems.Contains(somaArqueiro))
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Compra confirmada!");
+                                int soma = lojinhaAtributosFinalArqueiro();
+                                personagensItems.Add(soma);
+                                Console.WriteLine("Seus atributos de força subiram para: " + soma);
+                                Console.WriteLine("");
+                                continue;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Compre primeiro o Arco Lapis Lazuli.");
+                                continue;
+                            }
                         }
                         else if (itemGuerreiros == "ladino")
                         {
-                            Console.Clear();
-                            Console.WriteLine("Compra confirmada!");
-                            int soma = lojinhaAtributosFinalLadino();
-                            Console.WriteLine("Seus atributos de força subiram para: " + soma);
-                            Console.WriteLine("");
-                            continue;
+                            if (personagensItems.Contains(somaLadino))
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Compra confirmada!");
+                                int soma = lojinhaAtributosFinalLadino();
+                                personagensItems.Add(soma);
+                                Console.WriteLine("Seus atributos de força subiram para: " + soma);
+                                Console.WriteLine("");
+                                continue;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Compre primeiro o Machado De Obesidiana Negra.");
+                                continue;
+                            }                          
                         }
                         else
                         {
@@ -352,9 +409,41 @@ namespace RPGdeTexto
                             Console.WriteLine("");
                             continue;
                         }
+                    case 12:
+                        Console.Clear();
+                        Console.WriteLine("Deseja sair? (s/n)");
+                        string resposta = Console.ReadLine().ToLower();
+
+                        if (resposta == "n")
+                        {
+                            Console.WriteLine("OK voltando a loja...");
+                            continue;
+                        }
+                        else if (resposta == "s")
+                        {
+                            if (personagensItems.Count == 0)
+                            {
+                                Console.WriteLine("Não há itens selecionados.");
+                                Console.WriteLine("");
+                                continue;
+                            }
+                            Console.WriteLine("Ok! Atributos adicionados.");
+                            if (resposta == "n")
+                            {
+                                foreach (var personagem in personagensItems) { Console.WriteLine(personagem); }
+
+                            }
+                            return;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Resposta inválida. Por favor, digite 's' ou 'n'.");
+                            continue;
+                        }
                     default:
 
                         break;
+
                 }
             }
         }              
