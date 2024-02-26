@@ -6,6 +6,7 @@ namespace RPGdeTexto
     {
         static void Main(string[] args)
         {
+          
             Historia.inicioHistoria();
             List<string> personagensLista = new List<string>();
             //criei uma lista apenas de exibição para os att dos personagens passivel de mudança.
@@ -105,6 +106,8 @@ namespace RPGdeTexto
                             Lojinha.ApresentarTudo();
                             Menus.escolhaLojinha();
                             Historia.missaoEmEldoria();
+                            Ataque.luta();
+
                             return; 
                         }
                         else

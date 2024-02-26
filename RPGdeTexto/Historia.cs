@@ -69,7 +69,7 @@ namespace RPGdeTexto
             Console.Write("\n Os heróis são informados sobre os desaparecimentos de aldeões na floresta próxima." +
             " Após um apelo dos próprios aldeões \n decidiram investigar o mistério.\n");
             Console.WriteLine(" ");
-            Console.WriteLine("\n A entrada da floresta era marcada por dois enormes pinherios..");
+            Console.WriteLine("\n A entrada da floresta era marcada por dois enormes pinheiros..");
             Thread.Sleep(2000);
             Console.WriteLine("    /\\           /\\     ");
             Console.WriteLine("   /  \\         /  \\    ");
@@ -107,6 +107,35 @@ namespace RPGdeTexto
                 "Eles mantinham suas armas prontas e os sentidos aguçados, preparados para qualquer " +
                 "desafio que pudessem \n encontrar em seu caminho.\n");
             Console.WriteLine(" ");
+            Console.WriteLine("\n Pressione Enter para avançar na história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.Write("\n Conforme avançavam ainda mais, a floresta se tornava mais densa, com uma " +
+                 "neblina misteriosa envolvendo suas formas. \n De repente, um rugido estrondoso ecoou pelos " +
+                 "arredores, fazendo com que os heróis se preparassem para o pior.");
+            Console.WriteLine(" ");
+            Console.WriteLine("\n Pressione Enter para avançar na história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.Write("\n À medida que a neblina se dissipava, os heróis avistaram não apenas um, mas " +
+                "vários dragões majestosos, com suas \n asas " +
+                "largas e escamas brilhantes refletindo a luz do sol. Era uma visão impressionante e aterrorisadora, " +
+                "mas os heróis \n sabiam que não tinham escolha a não ser enfrentar essas criaturas lendárias.");
+            Console.WriteLine(" ");
+            Console.WriteLine("\n Pressione Enter para avançar na história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.Write("\n Enquanto observavam os dragões, os heróis perceberam algo ainda mais alarmante: " +
+               "um dos dragões havia capturado os \n habitantes de Eldoria, levando-os consigo para algum lugar desconhecido. " +
+               "O destino desses inocentes estava \n agora nas mãos dos heróis, que \n sentiram o peso da responsabilidade sobre seus ombros.");
+            Console.WriteLine(@"
+                               __
+                              /._)
+                     _.----._/ /
+                   /            \
+                 __/ (  |  (   |
+                /__.-'|_|--|__|
+                ");
         }
     }
 }
