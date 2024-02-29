@@ -8,7 +8,7 @@ namespace RPGdeTexto
 {
     internal class Historia
     {
-        public static void inicioHistoria() 
+        public static void inicioHistoria()
         {
             Console.Write("=-= O Despertar do Herói=-= \n Há muito tempo, em um reino chamado Eldoria, " +
                 "as trevas começaram a se espalhar.\n Uma antiga profecia, " +
@@ -18,7 +18,11 @@ namespace RPGdeTexto
                 "e restaurar a paz em Eldoria.\n Você está pronto para encarar a aventura? Vamos criar" +
                 " seu personagem: \n");
             Console.WriteLine("");
+            Console.Write("\n =-=-=-= Atenção Jogadores =-=-=-= Para melhor experiência da história, jogar com auxilio de um diario de bordo" +
+               " o jogo \n está ainda em demo e faltando muitas funções! \n ");
+            Console.WriteLine("");
             Thread.Sleep(10000);
+           
         }
 
         public static void inicioHistoriaAposCriacaoPersonagem()
@@ -36,13 +40,13 @@ namespace RPGdeTexto
             Thread.Sleep(2000);
             Console.Clear();
         }
-        public static void inicioHistoriaLojinha() 
+        public static void inicioHistoriaLojinha()
         {
             Console.Write("\n Seguindo os conselhos de um velho sábio, eles logo encontram uma " +
                 "pequena loja escondida em uma ruela estreita.");
             Thread.Sleep(5000);
             Console.WriteLine("");
-            Console.Write("\n A lojinha, conhecida como 'Arcanos e Aventuras', é uma pequena e aconchegante tenda decorada com artefatos "+ 
+            Console.Write("\n A lojinha, conhecida como 'Arcanos e Aventuras', é uma pequena e aconchegante tenda decorada com artefatos " +
                 "mágicos\n e armas reluzentes.");
             Thread.Sleep(5000);
             Console.WriteLine("");
@@ -78,8 +82,6 @@ namespace RPGdeTexto
             Console.WriteLine("/_______ \\   /_______ \\ ");
             Console.WriteLine("   |   |        |   |   ");
             Console.WriteLine("   |   |        |   |   ");
-            Console.WriteLine(" ");
-            Console.WriteLine("\n Nossos herois decidiram investigar esse misterio mais a fundo e adentraram na floresta..");
             Console.WriteLine(" ");
             Console.WriteLine("\n Pressione Enter para avançar na história...");
             Console.ReadLine();
@@ -127,15 +129,22 @@ namespace RPGdeTexto
             Console.Clear();
             Console.Write("\n Enquanto observavam os dragões, os heróis perceberam algo ainda mais alarmante: " +
                "um dos dragões havia capturado os \n habitantes de Eldoria, levando-os consigo para algum lugar desconhecido. " +
-               "O destino desses inocentes estava \n agora nas mãos dos heróis, que \n sentiram o peso da responsabilidade sobre seus ombros.");
-            Console.WriteLine(@"
+               "O destino desses inocentes estava \n agora nas mãos dos heróis, que sentiram o peso da responsabilidade sobre seus ombros.");
+
+        }
+        public static void missaoEmEldoriaDrag()
+        {
+            Console.WriteLine
+             (@"
                                __
                               /._)
                      _.----._/ /
                    /            \
                  __/ (  |  (   |
                 /__.-'|_|--|__|
-                ");
+             ");
+            Console.WriteLine("O numero no dado indica a quatidade de dano que você (e os demais) daram no inimigo!");
+            Console.WriteLine("O hit será feito um por vez até que a luta termine, será alternado entre jogadores e inimigo.");
         }
     }
 }

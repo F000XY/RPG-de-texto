@@ -6,7 +6,7 @@ namespace RPGdeTexto
     {
         static void Main(string[] args)
         {
-          
+            Ataque.luta();
             Historia.inicioHistoria();
             List<string> personagensLista = new List<string>();
             //criei uma lista apenas de exibição para os att dos personagens passivel de mudança.
@@ -101,12 +101,15 @@ namespace RPGdeTexto
                                 foreach (var personagem in personagensLista){ Console.WriteLine(personagem); }
                                
                             }
-                            Historia.inicioHistoriaAposCriacaoPersonagem();
-                            Historia.inicioHistoriaLojinha();
-                            Lojinha.ApresentarTudo();
-                            Menus.escolhaLojinha();
-                            Historia.missaoEmEldoria();
+                            //  Historia.inicioHistoriaAposCriacaoPersonagem();
+                            //  Historia.inicioHistoriaLojinha();
+                            // Lojinha.ApresentarTudo();
+                            //   Menus.escolhaLojinha();
+                            //   Historia.missaoEmEldoria();
                             Ataque.luta();
+                            Historia.missaoEmEldoriaDrag();
+                         //   Dragao d1 = new Dragao();
+                        //    d1.atributosMonstro();
 
                             return; 
                         }
