@@ -25,8 +25,8 @@ namespace RPGdeTexto
     {
         public static void luta()
         {
-           // int numero = RandomizacaoDeDados.GerarNumeroAleatorio();
-            int numero = 1;
+           int numero = RandomizacaoDeDados.GerarNumeroAleatorio();
+           // int numero = 1;
             while (true)
             {
                 Console.WriteLine("\n Você deseja lutar contra o dragão? (S/N) ");

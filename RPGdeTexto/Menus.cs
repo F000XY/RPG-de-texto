@@ -11,8 +11,8 @@ namespace RPGdeTexto
 {
     internal class Menus
     {
-       public static void escolhaMenu()
-       {
+        public static void escolhaMenu()
+        {
             Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
             Console.WriteLine("BEM-VINDO A CRIAÇÃO DE PERSONAGEM");
             Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
@@ -24,8 +24,8 @@ namespace RPGdeTexto
             Console.WriteLine("5. Ladino");
             Console.WriteLine("6. Druida");
             Console.WriteLine("7. Adicionar outro personagem ");
-            Console.Write("Digite o número desejado: "); 
-       }
+            Console.Write("Digite o número desejado: ");
+        }
         public static int placas()
         {
             int forcaPlacas = 20;
@@ -42,7 +42,7 @@ namespace RPGdeTexto
             int forcaLadino = 50;
             int forcaMachado = 60;
             int somaLadino = forcaLadino + forcaMachado;
-             return somaLadino;
+            return somaLadino;
         }
         public static int lojinhaAtributosFinalLadino()
         {
@@ -55,7 +55,7 @@ namespace RPGdeTexto
         {
             int forcaArqueiro = 50;
             int forcaArco = 70;
-            int somaArqueiro = forcaArqueiro + forcaArco; 
+            int somaArqueiro = forcaArqueiro + forcaArco;
             return somaArqueiro;
         }
         public static int lojinhaAtributosFinalArqueiro()
@@ -89,7 +89,7 @@ namespace RPGdeTexto
         public static int lojinhaAtributosFinalDruida()
         {
             int total = lojinhaAtributosDruida();
-            int somaDruidaTotal = total + tunica(); 
+            int somaDruidaTotal = total + tunica();
             return somaDruidaTotal;
         }
         //MAGO
@@ -103,7 +103,7 @@ namespace RPGdeTexto
         public static int lojinhaAtributosFinalMago()
         {
             int total = lojinhaAtributosDruida();
-            int somaMagoTotal = total + tunica(); 
+            int somaMagoTotal = total + tunica();
             return somaMagoTotal;
         }
         // CLERIGO
@@ -116,17 +116,18 @@ namespace RPGdeTexto
         }
         public static int lojinhaAtributosFinalClerigo()
         {
-            int forcaClerigo = 50;           
+            int forcaClerigo = 50;
             int somaClerigoTotal = forcaClerigo + tunica();
             return somaClerigoTotal;
         }
         public static void escolhaLojinha()
         {
             List<int> personagensItems = new List<int>();
+
             int somaLadino = lojinhaAtributosLadino();
             int somaArqueiro = lojinhaAtributosArqueiro();
-            int somaGuerreiro = lojinhaAtributosGuerrreiro(); 
-            int somaDruida =  lojinhaAtributosDruida();
+            int somaGuerreiro = lojinhaAtributosGuerrreiro();
+            int somaDruida = lojinhaAtributosDruida();
             int somaMago = lojinhaAtributosMago();
             while (true)
             {
@@ -142,16 +143,16 @@ namespace RPGdeTexto
                 Console.WriteLine("4. Machado Obsidiana Negra (LADINO)");
                 Console.WriteLine("5. Arco Lapis Lazuli (ARQUEIRO)");
                 Console.WriteLine("6. Espada de Prisma (GUERREIRO)");
- 
+
                 Console.WriteLine("7. Cajado da Cura Eterna (CLERIGO)");
                 Console.WriteLine("8. Orbe da Natureza Ancestral (DRUIDA)");
                 Console.WriteLine("9. Livro dos Arcanos Antigos (MAGO)");
-               
+
                 Console.WriteLine("10. Túnica Arcana (PERSONAGENS DE MAGIA)");
                 Console.WriteLine("11. Placas de Batalha (PERSONAGENS DE GUERRA)");
                 Console.WriteLine("12. Sair.. ");
                 Console.Write("Digite o número desejado: ");
-                int escolhaitem;  
+                int escolhaitem;
                 if (!int.TryParse(Console.ReadLine(), out escolhaitem)) { }
                 switch (escolhaitem)
                 {
@@ -211,7 +212,7 @@ namespace RPGdeTexto
                         if (itemGuerreiro == "guerreiro")
                         {
                             Console.Clear();
-                            Console.WriteLine("Compra confirmada!"); 
+                            Console.WriteLine("Compra confirmada!");
                             personagensItems.Add(somaGuerreiro);
                             Console.WriteLine("Seus atributos de força subiram para: " + somaGuerreiro);
                             Console.WriteLine("");
@@ -400,7 +401,7 @@ namespace RPGdeTexto
                             {
                                 Console.WriteLine("Compre primeiro o Machado De Obesidiana Negra.");
                                 continue;
-                            }                          
+                            }
                         }
                         else
                         {
@@ -429,7 +430,7 @@ namespace RPGdeTexto
                             }
                             Console.WriteLine("Ok! Atributos adicionados.");
                             if (resposta == "n")
-                            { 
+                            {
                                 continue;
                             }
                             return;
@@ -445,6 +446,6 @@ namespace RPGdeTexto
 
                 }
             }
-        }              
+        }
     }
 }
