@@ -22,7 +22,7 @@ namespace RPGdeTexto
                " o jogo \n está ainda em demo e faltando muitas funções! \n ");
             Console.WriteLine("");
             Thread.Sleep(10000);
-           
+
         }
 
         public static void inicioHistoriaAposCriacaoPersonagem()
@@ -145,6 +145,36 @@ namespace RPGdeTexto
              ");
             Console.WriteLine("O numero no dado indica a quatidade de dano que você (e os demais) daram no inimigo!");
             Console.WriteLine("O hit será feito um por vez até que a luta termine, será alternado entre jogadores e inimigo.");
+        }
+        public static void posMissaoEmEldoriaDrag()
+        {
+            Console.WriteLine("Pressione Enter para continuar a história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.Write("\n Com coragem renovada após derrotar o dragão e libertar os habitantes de Eldoria, " +
+                "os heróis embarcaram em uma jornada\n ainda mais desafiadora. \n Eles sabiam que o caminho pela frente seria difícil, " +
+                "mas estavam determinados a enfrentar qualquer obstáculo em seu\n caminho.");
+            Console.WriteLine(" ");
+            Console.WriteLine("\n Pressione Enter para avançar na história...");
+            Console.ReadLine();
+            Console.Clear();
+            // História do Gigante Athos
+            Console.Write("\n Enquanto exploravam uma região montanhosa, os heróis se depararam com lendas sobre um gigante " +
+                 "chamado Athos. Diziam que Athos era conhecido por sua bondade e sabedoria, mas também por sua força incomparável " +
+                 "e tamanho imponente.");
+            Console.WriteLine(" ");
+            Console.WriteLine("\n Pressione Enter para avançar na história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.Write("\n Em sua jornada, os heróis encontraram uma vila em pânico. Os moradores relataram que Athos, " +
+                 "o gigante protetor da\n região, tinha sido capturado por uma força maligna e uma sombra obscura agora pairava sobre a terra.");
+            Console.WriteLine(" ");
+            Console.WriteLine("\n Pressione Enter para avançar na história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.Write("\n Determinados a ajudar, os heróis partiram em busca de Athos. Eles escalaram montanhas íngremes, " +
+                 "atravessaram florestas densas\n e enfrentaram criaturas terríveis em sua missão para libertar o gigante e " +
+                 "restaurar a paz na região.");
         }
     }
 }

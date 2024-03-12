@@ -25,6 +25,7 @@ namespace RPGdeTexto
         }
         public static void skillItems(List<string> personagensItems)
         {
+            
             Console.WriteLine("Pressine 'L' para exibir o menu de personagens! 'K' Para sair! ");
             while (true)
             {
