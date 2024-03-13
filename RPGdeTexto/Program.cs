@@ -122,6 +122,7 @@ namespace RPGdeTexto
                          //   Ataque.luta();
                          //   Historia.posMissaoEmEldoriaDrag();
                             MissaoGigante.testeDoGigante();
+
                             return; 
                         }
                         else
