@@ -53,6 +53,8 @@ namespace RPGdeTexto
             Console.WriteLine("RESISTÊNCIA: " + resistencia);
             Console.WriteLine("INTELIGENCIA: " + inteligencia);
             Console.WriteLine("HABILIDADE: " + habilidade);
+            Thread.Sleep(5000);
+            Console.WriteLine("");
 
         }
     }

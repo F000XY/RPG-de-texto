@@ -146,7 +146,7 @@ namespace RPGdeTexto
             Console.WriteLine("O numero no dado indica a quatidade de dano que você (e os demais) daram no inimigo!");
             Console.WriteLine("O hit será feito um por vez até que a luta termine, será alternado entre jogadores e inimigo.");
         }
-        public static void posMissaoEmEldoriaDrag()
+        public static void missaoGigante()
         {
             Console.WriteLine("Pressione Enter para continuar a história...");
             Console.ReadLine();
@@ -160,21 +160,36 @@ namespace RPGdeTexto
             Console.Clear();
             // História do Gigante Athos
             Console.Write("\n Enquanto exploravam uma região montanhosa, os heróis se depararam com lendas sobre um gigante " +
-                 "chamado Athos. Diziam que Athos era conhecido por sua bondade e sabedoria, mas também por sua força incomparável " +
+                 "chamado Athos. Diziam que Athos era conhecido por sua força incomparável " +
                  "e tamanho imponente.");
             Console.WriteLine(" ");
             Console.WriteLine("\n Pressione Enter para avançar na história...");
             Console.ReadLine();
             Console.Clear();
             Console.Write("\n Em sua jornada, os heróis encontraram uma vila em pânico. Os moradores relataram que Athos, " +
-                 "o gigante protetor da\n região, tinha sido capturado por uma força maligna e uma sombra obscura agora pairava sobre a terra.");
+                 " da\n região, estava ameaçando os habitantes locais.");
             Console.WriteLine(" ");
             Console.WriteLine("\n Pressione Enter para avançar na história...");
             Console.ReadLine();
             Console.Clear();
-            Console.Write("\n Determinados a ajudar, os heróis partiram em busca de Athos. Eles escalaram montanhas íngremes, " +
-                 "atravessaram florestas densas\n e enfrentaram criaturas terríveis em sua missão para libertar o gigante e " +
-                 "restaurar a paz na região.");
+            Console.Write("\n Determinados a ajudar, os heróis partiram na luta contra Athos. Eles escalaram montanhas íngremes, " +
+                 "atravessaram \n florestas densas até chegar na caverna do gigante Athos.");
+            Console.WriteLine(" ");
+            Console.WriteLine("\n Pressione Enter para avançar na história...");
+            Console.ReadLine();
+            Console.Clear();
+            Thread.Sleep(3000);
+            Console.Write("\n =-=Athos=-=: 'O QUE FAZEM NA MINHA CAVERNA?.' - A voz de athos estremeceu.\n ");
+            Thread.Sleep(3000);
+            Console.Write("\n =-=Heróis=-=: 'Viemos lutar pela liberdade do povo da vila local.' - Rebateram.\n ");
+            Thread.Sleep(3000);
+            Console.Write("\n =-=Athos=-=: VOCÊS NUNCA ME DERROTARÃO!!.' - A voz de athos estremeceu, novamente.\n ");
+            Thread.Sleep(3000);
+            Console.Write("\n =-=Heróis=-=: 'Isso que veremos!!' - Disseram confiantes.\n ");
+            Thread.Sleep(3000);
+            Console.Write("\n O clima esquenta e nossos heróis vão a briga, prepare-se.\n ");
+            Thread.Sleep(5000);
+            Console.Clear();
         }
     }
 }

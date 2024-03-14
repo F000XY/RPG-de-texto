@@ -18,71 +18,96 @@ internal class MissaoGigante
             Thread.Sleep(1000);
             Console.WriteLine($"Começaremos em {i} segundos!!");
         }
-
-        // Mensagem final
         Console.WriteLine("GOOOOOOO!!");
         Console.Clear();
-        Stopwatch stopwatch = new Stopwatch();
         // Inicia o contador
+        Stopwatch stopwatch = new Stopwatch();   
         stopwatch.Start();
-        Console.WriteLine("M -> G -> F");
+        Console.WriteLine("M -> G -> F -> S");
 
         // Variáveis para armazenar se as teclas foram pressionadas corretamente
-        bool mPressionado = false, gPressionado = false, fPressionado = false;
+        bool mPressionado = false, gPressionado = false, fPressionado = false, sPressionado = false, dPressionado = false;
 
-        char proximaTecla = 'M'; // Começamos com 'M' como a próxima tecla a ser pressionada
+        char proximaTecla = 'M'; 
 
         while (true)
         {
-            if (Console.KeyAvailable)
-            {
-                ConsoleKeyInfo teclaPressionada = Console.ReadKey(true);
+            ConsoleKeyInfo teclaPressionada = Console.ReadKey(true);
 
-                switch (proximaTecla)
-                {
-                    case 'M':
-                        if (teclaPressionada.Key == ConsoleKey.M)
+            switch (proximaTecla)
+            {
+                case 'M':
+                    if (teclaPressionada.Key == ConsoleKey.M)
+                    {
+                        mPressionado = true;
+                        Console.WriteLine("Boa! A força do gigante diminui para 70 e resistência para 60!");
+                    proximaTecla = 'G';
+                    }
+                   break;
+                case 'G':
+                    if (teclaPressionada.Key == ConsoleKey.G)
+                    {
+                        gPressionado = true;
+                        Console.WriteLine("Boa! A força do gigante diminui para 50 e resistência para 40!");
+                        proximaTecla = 'F';
+                    }
+                    break;
+                case 'F':
+                    if (teclaPressionada.Key == ConsoleKey.F)
+                    {
+                        fPressionado = true;
+                        Console.WriteLine("Boa! A força do gigante diminui para 30 e resistência para 20!");
+                        proximaTecla = 'S';
+                    }
+                    break;
+                case 'S':
+                    if (teclaPressionada.Key == ConsoleKey.S)
+                    {
+                        sPressionado = true;
+                        Console.WriteLine("Boa! A força do gigante e resistência para 0!");
+                        proximaTecla = 'D';
+                       
+                    }
+                    break;
+                default:
+                    if (mPressionado && gPressionado && fPressionado && dPressionado)
+                    {
+                        Console.WriteLine("Você venceu a batalha!");
+                        return;
+                    }
+                    else if (stopwatch.ElapsedMilliseconds >= 5000)
+                    {
+                        Console.WriteLine("Tempo esgotado!");
+                        Console.WriteLine("Deseja tentar novamente? [s/n] ");
+                        string resposta = Console.ReadLine().ToLower();
+                        if (resposta == "s")
                         {
-                            mPressionado = true;
-                            Console.WriteLine("Boa! M");
-                            proximaTecla = 'G';
+                            continue;
                         }
-                        break;
-                    case 'G':
-                        if (teclaPressionada.Key == ConsoleKey.G)
+                        if (resposta == "n")
                         {
-                            gPressionado = true;
-                            Console.WriteLine("Boa! G");
-                            proximaTecla = 'F';
+                            Console.WriteLine("Você ira sair do jogo, tem certeza? [s/n] O progresso será perdido! ");
+                            string resposta2 = Console.ReadLine().ToLower();
+                            if (resposta == "s")
+                            {
+                                return;
+                            }
+                            if (resposta == "n")
+                            {
+                                Console.WriteLine("Vamos tentar novamente então!");
+                                continue;
+                            }
                         }
-                        break;
-                    case 'F':
-                        if (teclaPressionada.Key == ConsoleKey.F)
-                        {
-                            fPressionado = true;
-                            Console.WriteLine("Boa! F");
-                            // Não há mais teclas a serem pressionadas, então podemos sair do loop
-                            break;
-                        }
-                        break;
+                    }
+                 
+                  
+                    break;
+  
                 }
-            }
-
-            // Se todas as teclas foram pressionadas, encerra o loop
-            if (mPressionado && gPressionado && fPressionado)
-            {
-                break;
-            }
+           
         }
 
-        // Verifica se todas as teclas foram pressionadas dentro do tempo limite
-        if (mPressionado && gPressionado && fPressionado)
-        {
-            Console.WriteLine("Você venceu a batalha!");
-        }
-        else
-        {
-            Console.WriteLine("Tempo esgotado ou tecla errada!");
-        }
+       
+        
     }
 }
