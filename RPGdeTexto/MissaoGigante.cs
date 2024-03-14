@@ -30,25 +30,42 @@ internal class MissaoGigante
         // Variáveis para armazenar se as teclas foram pressionadas corretamente
         bool mPressionado = false, gPressionado = false, fPressionado = false;
 
-        while (stopwatch.ElapsedMilliseconds < 5000)
+        char proximaTecla = 'M'; // Começamos com 'M' como a próxima tecla a ser pressionada
+
+        while (true)
         {
-            if (!mPressionado && Console.KeyAvailable && Console.ReadKey(true).
-                Key == ConsoleKey.M)
+            if (Console.KeyAvailable)
             {
-                mPressionado = true;
-                Console.WriteLine("Boa! M");
-            }
-            else if (!gPressionado && Console.KeyAvailable && Console.ReadKey(true).
-                Key == ConsoleKey.G)
-            {
-                gPressionado = true;
-                Console.WriteLine("Boa! G");
-            }
-            else if (!fPressionado && Console.KeyAvailable && Console.ReadKey(true).
-                Key == ConsoleKey.F)
-            {
-                fPressionado = true;
-                Console.WriteLine("Boa! F");
+                ConsoleKeyInfo teclaPressionada = Console.ReadKey(true);
+
+                switch (proximaTecla)
+                {
+                    case 'M':
+                        if (teclaPressionada.Key == ConsoleKey.M)
+                        {
+                            mPressionado = true;
+                            Console.WriteLine("Boa! M");
+                            proximaTecla = 'G';
+                        }
+                        break;
+                    case 'G':
+                        if (teclaPressionada.Key == ConsoleKey.G)
+                        {
+                            gPressionado = true;
+                            Console.WriteLine("Boa! G");
+                            proximaTecla = 'F';
+                        }
+                        break;
+                    case 'F':
+                        if (teclaPressionada.Key == ConsoleKey.F)
+                        {
+                            fPressionado = true;
+                            Console.WriteLine("Boa! F");
+                            // Não há mais teclas a serem pressionadas, então podemos sair do loop
+                            break;
+                        }
+                        break;
+                }
             }
 
             // Se todas as teclas foram pressionadas, encerra o loop
