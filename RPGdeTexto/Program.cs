@@ -121,9 +121,9 @@ namespace RPGdeTexto
                             //   d1.atributosMonstro();
                             //   Ataque.luta();
                             //   Historia.posMissaoEmEldoriaDrag();
-                            Historia.missaoGigante();
-                            Gigante g1 = new Gigante();
-                            g1.atributosMonstro();
+                           // Historia.missaoGigante();
+                           // Gigante g1 = new Gigante();
+                           // g1.atributosMonstro();
                             MissaoGigante.testeDoGigante();
 
                             return; 

@@ -1,0 +1,27 @@
+ if (stopwatch.ElapsedMilliseconds >= 5000)
+            {
+                Console.WriteLine("Tempo esgotado!");
+                Console.WriteLine("Deseja tentar novamente? [s/n] ");
+                string resposta = Console.ReadLine().ToLower();
+                if (resposta == "s")
+                {
+                    stopwatch.Restart();
+                    continue;
+                }
+                if (resposta == "n")
+                {
+                    Console.WriteLine("Você ira sair do jogo, tem certeza? [s/n] O progresso será perdido! ");
+                    string resposta2 = Console.ReadLine().ToLower();
+                    if (resposta2 == "s")
+                    {
+                        return;
+                    }
+                    if (resposta2 == "n")
+                    {
+                        Console.WriteLine("Vamos tentar novamente então!");
+                        continue;
+                    }
+                }
+                break;
+  
+                }
