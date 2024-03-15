@@ -140,7 +140,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 2:
                                 Console.WriteLine("Para o seu azar seu numero foi de de: " + numero);
                                 Console.WriteLine("As poções são usadas automaticamente para ajudar na missão.");
@@ -241,7 +241,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 3:
                                 Console.WriteLine("Para o seu azar seu numero foi de de: " + numero);
                                 Console.WriteLine("As poções são usadas automaticamente para ajudar na missão.");
@@ -342,7 +342,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 4:
                                 Console.WriteLine("Para o seu azar seu numero foi de de: " + numero);
                                 Console.WriteLine("As poções são usadas automaticamente para ajudar na missão.");
@@ -443,7 +443,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 5:
                                 Console.WriteLine("Para o seu azar seu numero foi de de: " + numero);
                                 Console.WriteLine("As poções são usadas automaticamente para ajudar na missão.");
@@ -544,7 +544,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 6:
                                 Console.WriteLine("Para o seu azar seu numero foi de de: " + numero);
                                 Console.WriteLine("As poções são usadas automaticamente para ajudar na missão.");
@@ -645,7 +645,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 7:
                                 Console.WriteLine("Vocês tiraram " + numero);
                                 Console.WriteLine("As poções são usadas automaticamente para ajudar na missão.");
@@ -746,10 +746,13 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 8:
                                 Console.WriteLine("Vocês tiraram " + numero);
                                 Console.WriteLine("As poções são usadas automaticamente para ajudar na missão");
+                                Console.WriteLine("=-=Poção de Cura=-= Aumento temporario da sua saúde em: +50 ");
+                                Console.WriteLine("=-=Poção de Força=-= Aumento temporario de força em: +100 ");
+                                Console.WriteLine("=-=Poção de Veneno=-= Diminuida a vida do dragão em: -50 ");
                                 Console.WriteLine
                                      (@"
                                                                    __
@@ -945,7 +948,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 10:
                                 Console.WriteLine("Vocês tiraram " + numero);
                                 Console.WriteLine("As poções são usadas automaticamente para ajudar na missão.");
@@ -1046,7 +1049,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 11:
                                 Console.WriteLine("Vocês tiraram " + numero);
                                 Console.WriteLine("As poções são usadas automaticamente para ajudar na missão.");
@@ -1147,7 +1150,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 12:
                                 Console.WriteLine("Seu numero da sorte foi de: " + numero);
                                 Console.WriteLine
@@ -1244,7 +1247,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 13:
                                 Console.WriteLine("Seu numero da sorte foi de: " + numero);
                                 Console.WriteLine
@@ -1341,7 +1344,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 14:
                                 Console.WriteLine("Seu numero da sorte foi de: " + numero);
                                 Console.WriteLine
@@ -1438,7 +1441,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 15:
                                 Console.WriteLine("Seu numero da sorte foi de: " + numero);
                                 Console.WriteLine
@@ -1521,7 +1524,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 16:
                                 Console.WriteLine("Seu numero da sorte foi de: " + numero);
                                 Console.WriteLine
@@ -1604,7 +1607,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 17:
                                 Console.WriteLine("Seu numero da sorte foi de: " + numero);
                                 Console.WriteLine
@@ -1687,7 +1690,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 18:
                                 Console.WriteLine("Seu numero da sorte foi de: " + numero);
                                 Console.WriteLine
@@ -1770,7 +1773,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 19:
                                 Console.WriteLine("Seu numero da sorte foi de: " + numero);
                                 Console.WriteLine
@@ -1839,7 +1842,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             case 20:
                                 Console.WriteLine("Seu numero da sorte foi de: " + numero);
                                 Console.WriteLine
@@ -1894,7 +1897,7 @@ namespace RPGdeTexto
                                                *******  ***  ******
                                       ");
                                 Console.WriteLine("\n O Dragão foi morto");
-                                break;
+                                return;
                             default:
                                 Console.WriteLine("Vocês tiraram um número fora do esperado.");
                                 break;

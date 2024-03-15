@@ -433,6 +433,14 @@ namespace RPGdeTexto
                             {
                                 continue;
                             }
+                            Thread.Sleep(1000);
+                            Console.WriteLine("\n =-=Horácio=-=: 'Devido ao espirito aventureiro de vocês, presenteio a todos com 1 exemplar de cada poção!'");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("\n =-=Horácio=-=: 'Assim irão mais do que preparados! E terão uma poção de cada.'");
+                            Thread.Sleep(1000);
+                            Console.WriteLine("\n =-=Horácio=-=: 'Me despeço por aqui! Boa jornada!'");
+                            Thread.Sleep(7000);
+                            Console.Clear();
                             return;
                         }
                         else

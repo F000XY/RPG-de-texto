@@ -69,7 +69,7 @@ internal class MissaoGigante
                 }
             }
             Console.WriteLine("Tempo esgotado. Você perdeu.");
-            Console.WriteLine("Deseja tentar novamente? [s/n]");
+            Console.WriteLine("Deseja tentar novamente? [s / qualquer tecla]");
             string resposta = Console.ReadLine().ToLower();
             if (resposta != "s")
             {

@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\monstros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:monstros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\menus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:menus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\missoedragao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:missoedragao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\missaogigante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:missaogigante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +27,12 @@
       "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:filename.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\skillcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:skillcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\menus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:menus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\monstros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:monstros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\historia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:historia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\skillcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|solutionrelative:skillcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FC4AF8C-4729-4B1A-9822-A48C2E6B7C6C}|RPGdeTexto.csproj|c:\\users\\55119\\source\\repos\\rpgdetexto\\rpg-de-texto\\rpgdetexto\\lojinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAgwH0AAAAdAAAA",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAgwEwAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-20T17:26:23.377Z",
               "IsPinned": true,
@@ -60,13 +64,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Menus.cs",
               "DocumentMoniker": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\Menus.cs",
               "RelativeDocumentMoniker": "Menus.cs",
               "ToolTip": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\Menus.cs",
               "RelativeToolTip": "Menus.cs",
-              "ViewState": "AQIAALAAAAAAAAAAAAAAALMAAAAZAAAA",
+              "ViewState": "AQIAAJ0BAAAAAAAAAAAAALQBAACcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-20T17:22:01.519Z",
               "IsPinned": true,
@@ -74,13 +78,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MissaoGigante.cs",
               "DocumentMoniker": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\MissaoGigante.cs",
               "RelativeDocumentMoniker": "MissaoGigante.cs",
               "ToolTip": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\MissaoGigante.cs",
               "RelativeToolTip": "MissaoGigante.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAcwE8AAAABAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwEcAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T19:39:35.087Z",
               "IsPinned": true,
@@ -88,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "FileName.txt",
               "DocumentMoniker": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\FileName.txt",
               "RelativeDocumentMoniker": "FileName.txt",
@@ -102,31 +106,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MissoeDragao.cs",
+              "DocumentMoniker": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\MissoeDragao.cs",
+              "RelativeDocumentMoniker": "MissoeDragao.cs",
+              "ToolTip": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\MissoeDragao.cs",
+              "RelativeToolTip": "MissoeDragao.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwCoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T17:33:46.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Historia.cs",
               "DocumentMoniker": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\Historia.cs",
               "RelativeDocumentMoniker": "Historia.cs",
               "ToolTip": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\Historia.cs",
               "RelativeToolTip": "Historia.cs",
-              "ViewState": "AQIAAJ8AAAAAAAAAAAAmwLkAAABwAAAA",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAcwJQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T16:41:25.341Z"
+              "WhenOpened": "2024-03-14T16:41:25.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Monstros.cs",
               "DocumentMoniker": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\Monstros.cs",
               "RelativeDocumentMoniker": "Monstros.cs",
               "ToolTip": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\Monstros.cs",
               "RelativeToolTip": "Monstros.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAD4vzIAAAAgAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBsAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:39:08.588Z"
+              "WhenOpened": "2024-03-13T17:39:08.588Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "SkillCheck.cs",
               "DocumentMoniker": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\SkillCheck.cs",
               "RelativeDocumentMoniker": "SkillCheck.cs",
@@ -134,12 +153,11 @@
               "RelativeToolTip": "SkillCheck.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwA8AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T17:23:58.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T17:23:58.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Lojinha.cs",
               "DocumentMoniker": "C:\\Users\\55119\\source\\repos\\RPGdeTexto\\RPG-de-texto\\RPGdeTexto\\Lojinha.cs",
               "RelativeDocumentMoniker": "Lojinha.cs",

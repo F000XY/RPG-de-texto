@@ -31,7 +31,7 @@ namespace RPGdeTexto
                         var sexoG= Personagem.Sexo();
                         int[] vetorG = { 100, 50, 10, 50, 100 };
                         personagensLista.Add("Dados: Guerreiro (" +nomeG+ "," +sexoG+ ") F=" + vetorG[0] + " D=" +vetorG[1]+ " I=" + vetorG[2]+ " S=" +vetorG[3]+ " V=" + vetorG[4]);
-                        personagensItems.Add("=-=GUERREIRO=-= Poção/ Espada de Prisma / Placas de Batalha");
+                        personagensItems.Add("=-=GUERREIRO=-= Poções/ Espada de Prisma / Placas de Batalha");
                         Personagem.personagemCriado();
                         break;
                     case 2:
@@ -41,7 +41,7 @@ namespace RPGdeTexto
                         var sexoM = Personagem.Sexo();
                         int[] vetorM = { 60, 50, 100, 50, 20 };
                         personagensLista.Add("Dados: Mago (" +nomeM+ "," +sexoM+ ") F=" + vetorM[0] + " D=" + vetorM[1] + " I=" + vetorM[2] + " S=" + vetorM[3] + " V=" + vetorM[4]);
-                        personagensItems.Add("=-=MAGO=-= Poção/ Livro dos Arcanos Antigos / Tunica Arcana");
+                        personagensItems.Add("=-=MAGO=-= Poções/ Livro dos Arcanos Antigos / Tunica Arcana");
                         Personagem.personagemCriado();
                         break;
                     case 3:
@@ -51,7 +51,7 @@ namespace RPGdeTexto
                         var sexoA = Personagem.Sexo();
                         int[] vetorA = { 50, 100, 50, 50, 50 };
                         personagensLista.Add("Dados: Arqueiro (" + nomeA + "," + sexoA + ") F=" + vetorA[0] + " D=" + vetorA[1] + " I=" + vetorA[2] + " S=" + vetorA[3] + " V=" + vetorA[4]);
-                        personagensItems.Add("=-=ARQUEIRO=-= Poção/ Arco Lapis Lazuli / Placas de Batalha");
+                        personagensItems.Add("=-=ARQUEIRO=-= Poções/ Arco Lapis Lazuli / Placas de Batalha");
                         Personagem.personagemCriado();
                         break;
                     case 4:
@@ -61,7 +61,7 @@ namespace RPGdeTexto
                         var sexoC = Personagem.Sexo();
                         int[] vetorC = { 50, 50, 100, 50, 50 };
                         personagensLista.Add("Dados: Clérigo (" + nomeC + "," + sexoC + ") F=" + vetorC[0] + " D=" + vetorC[1] + " I=" + vetorC[2] + " S=" + vetorC[3] + " V=" + vetorC[4]);
-                        personagensItems.Add("=-=CLERIGO=-= Poção/ Cajado da Cura Eterna / Tunica Arcana");
+                        personagensItems.Add("=-=CLERIGO=-= Poções/ Cajado da Cura Eterna / Tunica Arcana");
                         Personagem.personagemCriado();
                         break;
                     case 5:
@@ -71,7 +71,7 @@ namespace RPGdeTexto
                         var sexoL = Personagem.Sexo();
                         int[] vetorL = { 50, 100, 50, 50, 50 };
                         personagensLista.Add("Dados: Ladino (" + nomeL + "," + sexoL + ") F=" + vetorL[0] + " D=" + vetorL[1] + " I=" + vetorL[2] + " S=" + vetorL[3] + " V=" + vetorL[4]);
-                        personagensItems.Add("=-=LADINO=-= Poção/ Machado Obsidiana Negra / Placas de Batalha");
+                        personagensItems.Add("=-=LADINO=-= Poções/ Machado Obsidiana Negra / Placas de Batalha");
                         Personagem.personagemCriado();
                         break;
                     case 6:
@@ -81,7 +81,7 @@ namespace RPGdeTexto
                         var sexoD = Personagem.Sexo();
                         int[] vetorD = { 50, 50, 100, 50, 50 };
                         personagensLista.Add("Dados: Druida (" + nomeD + "," + sexoD + ") F=" + vetorD[0] + " D=" + vetorD[1] + " I=" + vetorD[2] + " S=" + vetorD[3] + " V=" + vetorD[4]);
-                        personagensItems.Add("=-=DRUIDA=-= Poção/ Orbe da Natureza Ancestral / Tunica Arcana");
+                        personagensItems.Add("=-=DRUIDA=-= Poções/ Orbe da Natureza Ancestral / Tunica Arcana");
                         Personagem.personagemCriado();
                         break;
                     case 7:
@@ -109,23 +109,19 @@ namespace RPGdeTexto
                                 SkillCheck.skill(personagensLista);
 
                             }
-                            //  Historia.inicioHistoriaAposCriacaoPersonagem();
-                            //   Historia.inicioHistoriaLojinha();
-                            //   Lojinha.ApresentarTudo();
-                            //  Menus.escolhaLojinha();
-                            //   SkillCheck.skillItems(personagensItems);
-                            //   Historia.missaoEmEldoria();
-                            //    Ataque.luta();
-                            //   Historia.missaoEmEldoriaDrag();
-                            //   Dragao d1 = new Dragao();
-                            //   d1.atributosMonstro();
-                            //   Ataque.luta();
-                            //   Historia.posMissaoEmEldoriaDrag();
-                           // Historia.missaoGigante();
-                           // Gigante g1 = new Gigante();
-                           // g1.atributosMonstro();
+                            Historia.inicioHistoriaAposCriacaoPersonagem();
+                            Historia.inicioHistoriaLojinha();
+                            Lojinha.ApresentarTudo();
+                            Menus.escolhaLojinha();
+                            SkillCheck.skillItems(personagensItems);
+                            Historia.missaoEmEldoria();
+                            Dragao d1 = new Dragao();
+                            d1.atributosMonstro();
+                            Ataque.luta();
+                            Historia.missaoGigante();
+                            Gigante g1 = new Gigante();
+                            g1.atributosMonstro();
                             MissaoGigante.testeDoGigante();
-
                             return; 
                         }
                         else

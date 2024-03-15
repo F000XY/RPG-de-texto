@@ -25,7 +25,7 @@ namespace RPGdeTexto
     {
         public override void atributosMonstro()
         {
-            Console.WriteLine("Criatura mistica e poderosa de grande porte, " +
+            Console.WriteLine(" Criatura mistica e poderosa de \n grande porte, " +
                 "possui sentidos aguçados, como visão noturna e olfato apurado");
             int forca = 90;
             int resistencia = 90;
