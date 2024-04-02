@@ -191,5 +191,42 @@ namespace RPGdeTexto
             Thread.Sleep(5000);
             Console.Clear();
         }
+        public static void posMissaoGigante()
+        {
+            Console.WriteLine("\n Após a longa e tenebroza luta contra o gigante, nossos herois foram recebidos por uma grande festa, na aldeia.\n ");
+            Console.WriteLine("Pressione Enter para continuar a história...");
+            Console.ReadLine();
+            Console.WriteLine("\n Quanto mais os dias se passavam a amizade entre os grandes guerreiros era fortalecida...\n ");
+            Console.WriteLine("\n Qual será a proxima aventura que os aguarda...\n ");
+            Thread.Sleep(5000);
+            Console.Clear();
+            Console.WriteLine("\n Pressione Enter para continuar a história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Na manhã seguinte despediram se dos moradores locais e após uma breve analize resolveram caminhar na direção onde o sol nascia," +
+                " o espirito de paz pairava pelo corpo dos mesmos, com a leve e suave da manhã, a grama refletia o brilho caloroso do sol, com o orvalho" +
+                " fresco, borboletas daçavam no doce soprar de vento que seguia sentido sudoeste e a doce serenata dos passaros era música para os ouvidos " +
+                " dos nossos herois!");
+            Console.WriteLine("\n Pressione Enter para continuar a história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("\n Eles sabiam que nada era em vão, o destino traçava o caminho deles, como um doce autor, que redige sua mais açucarada" +
+                " hitória rica em detalhes!");
+            Console.WriteLine("\n Por falar em doce...Aquilo era uma arvore de bala? Isso mesmo aventureiros, sejam bem vindos a CandyTown, um lugar doce " +
+                " ao ponto de você sair de la com diabetes do tipo 2!");
+            Console.WriteLine("\n Bem-vindos a CandyTown, um reino encantado onde a doçura está em cada esquina e o aroma de confeitos preenche o ar. " +
+                "Ao entrar em CandyTown, os visitantes são recebidos por uma paisagem de conto de fadas, onde cada elemento é feito de deliciosos doces " +
+                "e guloseimas.O castelo de CandyTown se ergue majestosamente no centro do reino, sua estrutura imponente construída inteiramente " +
+                "com camadas suculentas de bolo de morango, decorado com glacê colorido e confeitos brilhantes. Suas torres se elevam até o céu, " +
+                "proporcionando uma vista deslumbrante de toda a terra açucarada. Um rio sinuoso de calda de caramelo flui suavemente pelos " +
+                "campos de algodão doce, refletindo os tons dourados do sol da tarde. Pontes de pirulitos coloridos atravessam o rio, proporcionando " +
+                "acesso a áreas encantadoras e escondidas de CandyTown. As ruas são alinhadas com árvores de bala, cujos galhos estão carregados " +
+                "com pirulitos, bombons e marshmallows. À medida que o vento sopra suavemente, os doces balançam e brilham, criando um espetáculo de cores " +
+                "e aromas tentadores. Entre os campos de goma e chocolate, crescem cactos em forma de bengalas doces, com seus espinhos cobertos de " +
+                "açúcar cristalizado. Estes cactos fornecem abrigo para uma variedade de criaturas mágicas que habitam CandyTown, desde duendes de chocolate " +
+                "até fadas de algodão doce. No coração de CandyTown está o palácio real, onde o Rei Melson, conhecido por sua sabedoria e " +
+                "generosidade, reina sobre seu doce reino com benevolência. Seu trono é feito de balas de goma macias e seu cetro");
+
+        }
     }
 }
