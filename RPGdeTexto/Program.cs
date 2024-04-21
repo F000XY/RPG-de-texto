@@ -6,7 +6,7 @@ namespace RPGdeTexto
     {
         static void Main(string[] args)
         {
-          
+            MissaoCandyT.caminhos2();
             Historia.inicioHistoria();
             List<string> personagensLista = new List<string>();
             List<string> personagensItems = new List<string>();

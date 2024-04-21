@@ -37,7 +37,7 @@ namespace RPGdeTexto
             public static void ApresentarPocaoVeneno()
             {
                 int vida = -50;
-                Console.WriteLine("=-=Poção de Veneno=-= Cuidado! Esta poção causa dano ao invés de cura em: " + vida);
+                Console.WriteLine("=-=Poção de Veneno=-= Cuidado! Esta poção causa dano (corrosivo) ao invés de cura em: " + vida);
             }
         }
 
