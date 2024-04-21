@@ -109,19 +109,21 @@ namespace RPGdeTexto
                                 SkillCheck.skill(personagensLista);
 
                             }
-                            Historia.inicioHistoriaAposCriacaoPersonagem();
-                            Historia.inicioHistoriaLojinha();
-                            Lojinha.ApresentarTudo();
-                            Menus.escolhaLojinha();
-                            SkillCheck.skillItems(personagensItems);
-                            Historia.missaoEmEldoria();
-                            Dragao d1 = new Dragao();
-                            d1.atributosMonstro();
-                            Ataque.luta();
-                            Historia.missaoGigante();
-                            Gigante g1 = new Gigante();
-                            g1.atributosMonstro();
-                            MissaoGigante.testeDoGigante();
+                            // Historia.inicioHistoriaAposCriacaoPersonagem();
+                            // Historia.inicioHistoriaLojinha();
+                            // Lojinha.ApresentarTudo();
+                            // Menus.escolhaLojinha();
+                            // SkillCheck.skillItems(personagensItems);
+                            // Historia.missaoEmEldoria();
+                            // Dragao d1 = new Dragao();
+                            // d1.atributosMonstro();
+                            // Ataque.luta();
+                            //Historia.missaoGigante();
+                            //Gigante g1 = new Gigante();
+                            // g1.atributosMonstro();
+                            // MissaoGigante.testeDoGigante();
+                            // Historia.posMissaoGigante();
+                            MissaoCandyT.caminhos2();
                             return; 
                         }
                         else

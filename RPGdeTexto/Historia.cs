@@ -212,21 +212,37 @@ namespace RPGdeTexto
             Console.Clear();
             Console.WriteLine("\n Eles sabiam que nada era em vão, o destino traçava o caminho deles, como um doce autor, que redige sua mais açucarada" +
                 " hitória rica em detalhes!");
+            Console.WriteLine("\n Pressione Enter para continuar a história...");
+            Console.ReadLine();
+            Console.Clear();
             Console.WriteLine("\n Por falar em doce...Aquilo era uma arvore de bala? Isso mesmo aventureiros, sejam bem vindos a CandyTown, um lugar doce " +
                 " ao ponto de você sair de la com diabetes do tipo 2!");
+            Console.WriteLine("\n Pressione Enter para continuar a história...");
+            Console.ReadLine();
+            Console.Clear();
             Console.WriteLine("\n Bem-vindos a CandyTown, um reino encantado onde a doçura está em cada esquina e o aroma de confeitos preenche o ar. " +
                 "Ao entrar em CandyTown, os visitantes são recebidos por uma paisagem de conto de fadas, onde cada elemento é feito de deliciosos doces " +
-                "e guloseimas.O castelo de CandyTown se ergue majestosamente no centro do reino, sua estrutura imponente construída inteiramente " +
+                "e guloseimas.");
+            Console.WriteLine("\n Pressione Enter para continuar a história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("\n O castelo de CandyTown se ergue majestosamente no centro do reino, sua estrutura imponente construída inteiramente " +
                 "com camadas suculentas de bolo de morango, decorado com glacê colorido e confeitos brilhantes. Suas torres se elevam até o céu, " +
-                "proporcionando uma vista deslumbrante de toda a terra açucarada. Um rio sinuoso de calda de caramelo flui suavemente pelos " +
-                "campos de algodão doce, refletindo os tons dourados do sol da tarde. Pontes de pirulitos coloridos atravessam o rio, proporcionando " +
-                "acesso a áreas encantadoras e escondidas de CandyTown. As ruas são alinhadas com árvores de bala, cujos galhos estão carregados " +
-                "com pirulitos, bombons e marshmallows. À medida que o vento sopra suavemente, os doces balançam e brilham, criando um espetáculo de cores " +
-                "e aromas tentadores. Entre os campos de goma e chocolate, crescem cactos em forma de bengalas doces, com seus espinhos cobertos de " +
-                "açúcar cristalizado. Estes cactos fornecem abrigo para uma variedade de criaturas mágicas que habitam CandyTown, desde duendes de chocolate " +
-                "até fadas de algodão doce. No coração de CandyTown está o palácio real, onde o Rei Melson, conhecido por sua sabedoria e " +
-                "generosidade, reina sobre seu doce reino com benevolência. Seu trono é feito de balas de goma macias e seu cetro");
-
+                "proporcionando uma vista deslumbrante de toda a terra açucarada.");
+            Console.WriteLine("\n Um rio sinuoso de calda de caramelo flui suavemente pelos campos de algodão doce, refletindo os tons dourados do sol da tarde.");
+            Console.WriteLine("\n Pontes de pirulitos coloridos atravessam o rio, proporcionando acesso a áreas encantadoras e escondidas de CandyTown. " +
+                "As ruas são alinhadas com árvores de bala, cujos galhos estão carregados com pirulitos, bombons e marshmallows.");
+            Console.WriteLine("\n Pressione Enter para continuar a história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("\n À medida que o vento sopra suavemente, os doces balançam e brilham, criando um espetáculo de cores e aromas tentadores. " +
+                "Entre os campos de goma e chocolate, crescem cactos em forma de bengalas doces, com seus espinhos cobertos de açúcar cristalizado.");
+            Console.WriteLine("\n Pressione Enter para continuar a história...");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("\n Estes cactos fornecem abrigo para uma variedade de criaturas mágicas que habitam CandyTown, desde duendes de chocolate até fadas de algodão doce. " +
+                "No coração de CandyTown está o palácio real, onde o Rei Melson, conhecido por sua sabedoria e generosidade, reina sobre seu doce reino com benevolência. " +
+                "Seu trono é feito de balas de goma macias e seu cetro");
         }
     }
 }
